@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9481a749-7900-614b-1695-bdc2899069c1" name="Mordheim" revision="15" battleScribeVersion="2.03" authorName="James" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9481a749-7900-614b-1695-bdc2899069c1" name="Mordheim" revision="16" battleScribeVersion="2.03" authorName="James" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -179,9 +179,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="db9e-119c-2891-c515" name="Experience" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc4-90e4-5e83-bb38" type="min"/>
-      </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -506,6 +503,9 @@ ignores the special rules for Animosity.
       <infoLinks>
         <infoLink id="48d9-d819-fc19-8aec" name="+1 Enemy armour save" hidden="false" targetId="2ed3-6ee5-da77-f549" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cc91-996e-9405-85e9" name="Double Handed Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>

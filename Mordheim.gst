@@ -73,48 +73,118 @@
     <infoLink id="3d08-9f3e-b012-c419" name="EXP Adancement" hidden="false" targetId="942a-cf0f-028c-ae1c" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="5c7e-9a15-e6a2-3dde" name="+1 A" hidden="false" collective="false" import="true" type="upgrade"/>
-    <selectionEntry id="94b2-1727-ed67-2ebd" name="+1 BS" hidden="false" collective="false" import="true" type="upgrade"/>
-    <selectionEntry id="9c0e-5b4f-d513-9819" name="+1 I" hidden="false" collective="false" import="true" type="upgrade"/>
-    <selectionEntry id="5f22-ccc1-95a6-f2d1" name="+1 LD" hidden="false" collective="false" import="true" type="upgrade"/>
-    <selectionEntry id="f8f0-2d81-50b7-00ae" name="+1 M" hidden="false" collective="false" import="true" type="upgrade"/>
-    <selectionEntry id="8358-b940-6f98-6e11" name="+1 S" hidden="false" collective="false" import="true" type="upgrade"/>
-    <selectionEntry id="60d2-e14f-bdf9-9d4b" name="+1 T" hidden="false" collective="false" import="true" type="upgrade"/>
-    <selectionEntry id="e859-5c9b-f27b-73be" name="+1 W" hidden="false" collective="false" import="true" type="upgrade"/>
-    <selectionEntry id="893f-8a30-c85d-e995" name="+1 WS" hidden="false" collective="false" import="true" type="upgrade"/>
-    <selectionEntry id="8342-094e-8510-2b57" name="-1 A" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="5c7e-9a15-e6a2-3dde" name="+1 A" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94b2-1727-ed67-2ebd" name="+1 BS" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c0e-5b4f-d513-9819" name="+1 I" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f22-ccc1-95a6-f2d1" name="+1 LD" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8f0-2d81-50b7-00ae" name="+1 M" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8358-b940-6f98-6e11" name="+1 S" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="60d2-e14f-bdf9-9d4b" name="+1 T" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e859-5c9b-f27b-73be" name="+1 W" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="893f-8a30-c85d-e995" name="+1 WS" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8342-094e-8510-2b57" name="-1 A" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="b46c-26d5-a8d0-86b9" name="-1 BS" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e4f0-6df9-914e-a1f1" type="min"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5bcf-1538-f631-7cb7" name="-1 I" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aa3e-8afe-5ba5-ee5e" type="min"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="f2dc-5621-c08e-e789" name="-1 LD" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="f2dc-5621-c08e-e789" name="-1 LD" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="e864-d41b-1034-8eb5" name="-1 M" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1ab-8119-1778-b088" type="min"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="6d87-b2ea-1bdd-0baa" name="-1 S" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="6d87-b2ea-1bdd-0baa" name="-1 S" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="0ef6-2716-8508-f0e9" name="-1 T" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="769d-c714-181d-32f2" type="min"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="418d-c4e9-cf36-8a87" name="-1 WS" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ff4-9a43-e9bd-b4da" type="min"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="a96e-c49f-8431-bb70" name="-1 W" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="a96e-c49f-8431-bb70" name="-1 W" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="db9e-119c-2891-c515" name="Experience" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e55e-7cdc-8712-a9e3" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc4-90e4-5e83-bb38" type="min"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8ea3-bbf5-5df5-33aa" name="Gold" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
@@ -125,6 +195,876 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5653-4e20-b981-6b60" type="max"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac7c-6d84-e54a-66ba" name="Barding" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3502-ba0d-4fc6-1be8" name="Barding" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+          <characteristics>
+            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
+            <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">-1 MV, Warhorse Only</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink id="f7f1-2f1e-48c4-50b8" name="-1 M" hidden="false" collective="false" import="true" targetId="e864-d41b-1034-8eb5" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e539-99d3-7cad-ba45" name="Buckler" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9d44-a074-c5c1-771f" name="Buckler" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+          <characteristics>
+            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+            <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Parry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="05b3-ff2b-28f3-c4e5" name="Parry" hidden="false" targetId="5ed4-9a5e-61d4-241a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c6b-8fc9-8bdb-c7b1" name="Gromril Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="930c-dd3e-4846-2cf3" name="Gromril Armour" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+          <characteristics>
+            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">4+</characteristic>
+            <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Not Showed By Shield </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9277-6629-bab6-c9fb" name="Heavy Armor" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2ebf-9102-e2d0-4ce9" name="Heavy Armor" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+          <characteristics>
+            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">5+</characteristic>
+            <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">A warrior that is armed with both heavy armour and a shield suffers a -1 Movement penalty.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c876-afcd-c2b9-4770" name="Helmet" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c64f-0dc8-6b9e-43f3" name="Helmet" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+          <characteristics>
+            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
+            <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Avoid stun</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="daa3-a6b6-55de-d912" name="Avoid stun" hidden="false" targetId="e376-ad51-58a9-9f09" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="80bc-e219-7934-5474" name="Ithilmar Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1f4f-0ccf-808b-4554" name="Ithilmar Armour" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+          <characteristics>
+            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">5+</characteristic>
+            <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Not slowed by Shield</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="655c-a55a-ccd8-f856" name="Light Armor" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4609-3b1e-d5a1-8b12" name="Light Armor" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+          <characteristics>
+            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
+            <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d436-3ae9-dc5c-344c" name="Shield" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a0f2-abea-1421-70b7" name="Shield" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
+          <characteristics>
+            <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
+            <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2234-08c5-a2d4-54c6" name="Axe" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f6c2-9ada-0078-57fa" name="Axe" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Cutting edge</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="fb4b-bddb-bb59-7fb1" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="15.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="098c-89da-624b-a7cb" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4a7f-94f6-8136-3c9d" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4888-d7dd-84a8-ae63" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="10.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c7f-8986-2572-f632" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9616-a4cf-115c-8386" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b94-fe91-4a0a-1660" name="Ball and Chain" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5efa-e260-8631-6834" name="Ball and Chain" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Incredible Force, Random, Two-handed, Cumbersome, Unwieldy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ad8f-cb5f-02c3-8328" name="Incredible Force" page="0" hidden="false">
+          <description>No armour saves are allowed against wounds caused by a Ball and Chain and any hit that successfully wounds will do 1D3 wounds instead of 1
+
+</description>
+        </rule>
+        <rule id="fae2-b5c6-9522-567d" name="Random:" page="0" hidden="false">
+          <description>The first turn he starts swinging the Ball and Chain, the model is moved 2D6&quot; in a direction nominated by the controlling player. In his subsequent Movement phases, roll a D6 to determine
+what the model does:
+
+1)Model Is taken out of action,  When rolling for Injury after the game, a roll of 1-3 means the model is out permanently, instead of the normal 1-2.
+2-5 The model moves 2D6&quot; in a direction nominated by the controlling player.
+6 The model moves 2D6&quot; in a random direction. If the player owns a Scatter dice.
+
+the Ball and Chain wielding model moves into contact with another model (friend or foe), he counts as charging into close combat, and will engage in close combat until his next Movement phase. 
+
+Opponents wishing to attack a Ball and Chain wielding model suffer a To Hit penalty of -1, as they must dodge the whirling ball to get close enough to strike.
+
+The Ball and Chain wielder cannot be held in close combat and will automatically move even if h e starts the Movement phase in base contact with another model. If the model moves into contact with a building, wall, or other obstruction, he is automatically taken out of action.
+
+ignores the special rules for Animosity.
+
+</description>
+        </rule>
+        <rule id="5f81-b174-5b6e-6de2" name="CumbersomE" page="0" hidden="false">
+          <description>a model equipped with one may carry no other weapons or equipment, only Mad Cap Mushrooms which they must have.</description>
+        </rule>
+        <rule id="6ecc-4dc4-3899-caa3" name="Unwieldy:" page="0" hidden="false">
+          <description>at the end of the battle the controlling player must roll for Injury for each model that used a Ball and Chain, just as if the model had been taken out of action. If the model was actually taken out of action normally, just roll once for Injury.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="935f-6e0a-5c6f-29ed" name="Club,Mace, Hammer" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="fb94-7386-8799-705d" name="Club,Mace, Hammer" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Concussion</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0a94-412f-a791-95d6" name="Concussion" hidden="false" targetId="3796-ee7a-f1cc-c82a" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="a4a8-3a7e-037e-d040" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="9.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c148-1aee-c57e-6c66" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0492-d877-390e-49be" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f290-b462-89f6-30ea" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="6.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fdd9-b3d6-5e75-4e14" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c3ed-1462-6c9a-1a61" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ab8-c64c-2553-0f4b" name="Dagger" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a30d-8858-b3c9-72e3" name="Dagger" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3c58-39ca-a5b4-68ae" name="+1 Enemy armour save" hidden="false" targetId="2ed3-6ee5-da77-f549" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="1388-650d-35fd-992c" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="6.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a42e-266a-46c9-7080" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="51af-e31f-6a2f-6038" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3b3d-961c-c5e7-31ce" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="4.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d35a-4e61-c49b-aa39" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c6f8-c9e0-967a-db4e" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bab8-3469-92c0-d6e4" name="Free Dagger" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f9e-036d-a81b-8a9b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="98ed-599a-b0df-433b" name="Dagger" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="48d9-d819-fc19-8aec" name="+1 Enemy armour save" hidden="false" targetId="2ed3-6ee5-da77-f549" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="cc91-996e-9405-85e9" name="Double Handed Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="75ae-9b71-f51e-41ef" name="Double Handed Weapon" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two-handed,  Strike last</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="79ef-2bf4-5a4f-f63b" name="Strike Last" hidden="false" targetId="27bd-6072-4e6f-ae34" type="rule"/>
+        <infoLink id="0708-5cd2-3e06-ff34" name="Two Handed" hidden="false" targetId="bdc2-cc5b-c475-4677" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="cc8b-acec-e0c5-f393" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="45.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d06a-ad25-b7c7-3058" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="947a-5d25-dd12-1586" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="123b-d11f-ed22-1639" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="30.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7aea-5284-e8bd-8f92" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="469b-5762-65ac-1fd2" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="042b-b835-d15c-946c" name="Fist" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3221-5c23-cc05-4bda" name="Fist" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 Enemy armour save:</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8c72-038b-c72e-ea0e" name="+1 Enemy armour save" hidden="false" targetId="2ed3-6ee5-da77-f549" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d57-784c-bbdd-094c" name="Flail" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9068-dc00-c4ae-8071" name="Flail" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Heavy, Two-handed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d271-8bf7-ad02-e61a" name="Heavy" hidden="false" targetId="a521-0400-ac0f-1bba" type="rule"/>
+        <infoLink id="2fa6-3f81-3bd2-e678" name="Two Handed" hidden="false" targetId="bdc2-cc5b-c475-4677" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="0021-de35-7c17-8343" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="45.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ebd1-6aa7-69c2-fa94" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="77b4-cff2-1c3f-aca5" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3c96-cef4-0d69-1e88" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="30.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9104-f9f8-84c2-725a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2c2d-4044-fe42-5abb" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="188b-6c92-d5a4-c1f3" name="Halberd" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9466-ab7d-1a9b-e493" name="Halberd" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two-handed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="27c2-7a33-b10f-4287" name="Two Handed" hidden="false" targetId="bdc2-cc5b-c475-4677" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="69e7-5a3f-50e1-5ea3" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="30.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d5d-de52-4ffb-6824" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d6ee-e839-e1cc-cce9" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dfdd-25d5-f2cf-1390" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="20.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="83f5-1342-f58e-2ff1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c6ae-dae3-abe3-b808" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a2c-e9ac-46bf-4018" name="Lance" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9aa9-ded4-b9b6-68f5" name="Lance" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Calvary Weapon, Calvary Bonus +2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6894-e748-8500-5617" name="Cavalry bonus" hidden="false" targetId="9a36-fe83-57ef-0b21" type="rule"/>
+        <infoLink id="d9cb-7e02-4178-011e" name="Cavalry Weapon" hidden="false" targetId="db5a-3397-a455-d771" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="13f8-65b1-3381-6ea2" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="120.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3f7a-b736-a80a-2d67" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e698-1037-85ca-9dbb" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="204c-32f3-8a17-53b1" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="80.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc2d-a3fa-38d5-f16d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a3f4-387d-2e21-df2b" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd17-d555-e617-923e" name="Morning Star" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a134-329b-ef4a-52d4" name="Morning Star" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Heavy, Difficult to use</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="868d-ea2f-c3ea-7793" name="Difficult To Use" hidden="false" targetId="dc5e-6fdd-400e-ac09" type="rule"/>
+        <infoLink id="46a9-f398-d35e-5a53" name="Heavy" hidden="false" targetId="a521-0400-ac0f-1bba" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="a412-1cf3-d0bd-abe8" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="45.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7fa7-bfd2-b6e7-f78f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="499a-6b65-9d57-f0c1" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3497-2afb-ed47-10fe" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="30.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="39ca-1e79-520c-362e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1ed5-5172-99c2-17dd" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6ae-fde5-878e-873a" name="Spear" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="71e4-9c43-6f1b-5a6d" name="Spear" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Unwieldy, Strike First, Calvary Bonus +1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="881a-7090-478f-908b" name="Cavalry bonus" hidden="false" targetId="9a36-fe83-57ef-0b21" type="rule"/>
+        <infoLink id="85bf-9103-f063-235c" name="Strike First" hidden="false" targetId="48f0-ab1b-b800-9b8c" type="rule"/>
+        <infoLink id="c024-1ddc-ca34-5cff" name="Unwieldy" hidden="false" targetId="fa81-1fef-abda-d120" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="c017-5824-a121-55f7" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="30.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="660b-e27f-4f1c-4ce8" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="563a-cde3-2fcc-7f9e" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7c7b-1b66-4f63-a8e2" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="20.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="48c5-af38-6837-7ddb" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b879-c801-facf-4a95" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="54d4-5dbf-fb3f-dd38" name="Sword" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7e21-08b6-4ecb-f747" name="Sword" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
+          <characteristics>
+            <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+            <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ca46-3bca-7508-783a" name="Parry" hidden="false" targetId="5ed4-9a5e-61d4-241a" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="8e52-ef8d-38aa-acb2" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="30.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d88-be5d-a629-80a3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="96e9-e0c7-f2c8-9594" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="860b-c93c-1981-f028" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="points" value="20.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e78d-b37f-2e98-8d9e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a91b-412c-1e74-5afb" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8697-546d-18a0-4fd0" name="Blunderbuss" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7de9-fe02-b4b8-bd6d" name="Blunderbuss" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">16x1</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c"/>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Shot: When your model fires the blunderbuss, draw a line 16&quot; long and 1&quot; wide in any direction from the firer (the line must be absolutely straight). Any and all models in its path are automatically hit by a Strength 3 hit.   One fire per Battle</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87eb-7333-9301-f8c2" name="Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="803f-4c70-d1ba-2d2c" name="Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a8d3-b45e-54bf-9e35" name="Cross Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7b14-ec6e-32cb-3c7c" name="Cross Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">30</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Move or fire: You may not move and fire a crossbow on the same turn, other than to pivot on the spot to face your target or to stand up.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="12b1-6ad0-4a35-80c2" name="Crossbow Pistol" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1202-c209-78f6-22ab" name="Crossbow Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Shoot in hand-to-hand combat: A model armed with a crossbow pistol may shoot it in the first round of a hand-to-hand combat and this shot is always resolved first, before any blows are struck. This shot has an extra -2 to hit penalty. Use model’s Ballistic Skill to see whether it hits or not. This bonus attack is in addition to any close combat weapon attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd8b-33b6-603b-6d15" name="Dueling Pistol" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ae00-fad6-3675-2344" name="Dueling Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Accuracy, Prepare shot, Save modifier, Hand-to-hand</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e35a-7659-6e99-2dcf" name="Hand to Hand" page="0" hidden="false">
+          <description>Pistols can be used in hand-to-hand combat as well as for shooting. A model armed with a pistol and another close combat weapon gains +1 Attack, which is resolved at Strength 4 with a -2 save modifier. This bonus attack can be used only once per combat. If you are firing a brace of pistols, your model can fight with 2 Attacks in the first turn of close combat. These attacks are resolved with a model’s Weapon Skill like any normal close combat attack and likewise may be parried. Successful hits are resolved at Strength 4 and with
+a -2 save modifier, regardless of the firer’s Strength.</description>
+        </rule>
+        <rule id="8e8b-634f-2d03-ee8b" name="Accuracy" page="0" hidden="false">
+          <description>A duelling pistol is built for accuracy as a skilled duellist is able to hit a coin from twenty paces. All shots and close combat attacks from
+a duelling pistol have a +1 bonus to hit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7ce8-4054-b0c8-6d29" name="Gun Save modifier" hidden="false" targetId="05bb-7ebd-3469-efe4" type="rule"/>
+        <infoLink id="66b5-faf8-b343-e15a" name="Prepare shot" hidden="false" targetId="8ed4-2359-9606-2413" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c66-9f78-7e56-1e1b" name="Elf Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bd42-70e6-36d5-7204" name="Elf Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">16</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">-1 Save modifier</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink id="4f4c-881c-8191-739c" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d34e-51f1-9528-f078" name="Hand Gun" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7146-dafb-a7d7-a93a" name="Hand Gun" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f84f-385c-7774-e152" name="Gun Save modifier" hidden="false" targetId="05bb-7ebd-3469-efe4" type="rule"/>
+        <infoLink id="105c-e33d-58b7-88ca" name="Move Of Fire" hidden="false" targetId="88ec-f0a9-72fc-2a6e" type="rule"/>
+        <infoLink id="3030-60af-b35c-3297" name="Prepare shot" hidden="false" targetId="8ed4-2359-9606-2413" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8957-bb5f-fdab-c4d1" name="Hunting Rifle" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0124-e1dd-4a63-60c9" name="Long Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8028-9162-0864-3e6d" name="Long Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">30</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34e4-5696-301a-48cb" name="Pistol" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="36ef-6de5-406d-442b" name="Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Prepare shot, Save modifier, Hand-to-hand</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8bb3-dcfd-5e77-1eb7" name="Hand-to-hand" page="0" hidden="false">
+          <description>Pistols can be used in hand-to-hand combat as well as for shooting. A model armed with a pistol and another close combat weapon gains +1 Attack, which is resolved at Strength 4 with a -2 save modifier. This bonus attack can be used only once per combat. If you are firing a brace of pistols, your model can fight with 2 Attacks in the first turn of close combat. These attacks are resolved with a model’s Weapon Skill like any normal close combat attack and likewise may be parried. Successful hits are resolved at Strength 4 and with
+a -2 save modifier, regardless of the firer’s Strength.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7643-c34d-554b-a0e8" name="Repeater Crossbow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ff1f-306e-2247-10b9" name="Repeater Crossbow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Fire twice: A model armed with a repeater crossbow may choose to fire twice per turn with an extra -1 to hit penalty on both shots.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3623-4a7c-e6e9-e2af" name="Short Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1d73-2872-94cd-7d77" name="Short Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">16</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc17-e0a4-cc3c-6a5a" name="Sling" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f4ac-7126-532b-a636" name="Sling" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">18</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Fire twice at half range: A slinger may fire twice in the shooting phase if he does not move in the movement phase. He cannot shoot over half range (9&quot;) though, if he fires twice. If the model fires twice theneach shot is at -1 to hit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d5d-0f01-aa16-4cb3" name="Throwing Knives/stars" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5fd8-4045-095f-e92e" name="Throwing Knives/stars" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
+            <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">U</characteristic>
+            <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Thrown weapon: Models using throwing stars or knives do not suffer penalties for range or moving as these weapons are perfectly balanced for throwing. They cannot be used in close combat.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="15.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -245,121 +1185,16 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
         <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7b5e-ad14-f5c1-b0c1" type="min"/>
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="91b7-fa25-8bdf-8f14" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="2847-0f42-62d3-f9ae" name="Light Armor" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="61d4-b4b4-782a-661f" name="Light Armor" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
-              <characteristics>
-                <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">6+</characteristic>
-                <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2f27-0259-5eaa-cdea" name="Heavy Armor" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="b597-a991-865b-9dd6" name="Heavy Armor" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
-              <characteristics>
-                <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">5+</characteristic>
-                <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">A warrior that is armed with both heavy armour and a shield suffers a -1 Movement penalty.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e91f-9552-cb1e-fc72" name="Helmet" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="66af-cffc-515c-6b63" name="Helmet" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
-              <characteristics>
-                <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
-                <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Avoid stun</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="4395-7a88-d0be-88cd" name="Avoid stun" hidden="false" targetId="e376-ad51-58a9-9f09" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8b8e-df99-463e-3c52" name="Shield" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="3d7a-fb36-77d6-0c8f" name="Shield" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
-              <characteristics>
-                <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
-                <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="887a-5dbf-c88e-0027" name="Buckler" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="f4eb-121c-127a-f753" name="Buckler" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
-              <characteristics>
-                <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b"/>
-                <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Parry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="b873-1cc7-c89f-2a2c" name="Parry" hidden="false" targetId="5ed4-9a5e-61d4-241a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3671-7f0c-ac51-a349" name="Barding" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="38bf-282e-4337-7fa4" name="Barding" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
-              <characteristics>
-                <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">+1</characteristic>
-                <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">-1 MV, Warhorse Only</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <entryLinks>
-            <entryLink id="ac43-6945-c431-3286" name="-1 M" hidden="false" collective="false" import="true" targetId="e864-d41b-1034-8eb5" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="80.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="233f-e099-e555-68bc" name="Gromril Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="6162-32d4-4ada-af9a" name="Gromril Armour" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
-              <characteristics>
-                <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">4+</characteristic>
-                <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Not Showed By Shield </characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="150.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2ce2-9b0b-f9dd-24dc" name="Ithilmar Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="496c-7368-414f-fa3f" name="Ithilmar Armour" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
-              <characteristics>
-                <characteristic name="Armor Save" typeId="26f1ea4e-6017-a8fa-db2b-5c2a83aea46b">5+</characteristic>
-                <characteristic name="Special" typeId="ff797ec4-8d7e-cab1-656e-896ae3ed005f">Not slowed by Shield</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="90.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ab4b-6dce-501c-7109" name="Barding" hidden="false" collective="false" import="true" targetId="ac7c-6d84-e54a-66ba" type="selectionEntry"/>
+        <entryLink id="ba5f-4307-08b9-08c8" name="Buckler" hidden="false" collective="false" import="true" targetId="e539-99d3-7cad-ba45" type="selectionEntry"/>
+        <entryLink id="1994-de26-73cd-e92a" name="Gromril Armour" hidden="false" collective="false" import="true" targetId="6c6b-8fc9-8bdb-c7b1" type="selectionEntry"/>
+        <entryLink id="e8a2-9167-1a6e-a29d" name="Heavy Armor" hidden="false" collective="false" import="true" targetId="9277-6629-bab6-c9fb" type="selectionEntry"/>
+        <entryLink id="30ec-c152-e114-7db6" name="Helmet" hidden="false" collective="false" import="true" targetId="c876-afcd-c2b9-4770" type="selectionEntry"/>
+        <entryLink id="ebc8-70d7-dce5-7147" name="Ithilmar Armour" hidden="false" collective="false" import="true" targetId="80bc-e219-7934-5474" type="selectionEntry"/>
+        <entryLink id="7c68-4fb0-16ae-c722" name="Light Armor" hidden="false" collective="false" import="true" targetId="655c-a55a-ccd8-f856" type="selectionEntry"/>
+        <entryLink id="d8bd-8ed4-4177-221f" name="Shield" hidden="false" collective="false" import="true" targetId="d436-3ae9-dc5c-344c" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2f03-3758-d975-3d66" name="Characteristic Decreases" hidden="false" collective="false" import="true">
       <constraints>
@@ -511,550 +1346,21 @@ only applies when they are armed with normal swords or weeping blades, and not w
         <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a07a-7cae-0cef-73c8" type="min"/>
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a788-cd8b-2f71-7107" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="068c-cb4f-30b7-241f" name="Dagger" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="652e-4d4a-fa45-ab0d" name="Dagger" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemy armor save</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="9339-67d7-30e6-e3f9" name="+1 Enemy armour save" hidden="false" targetId="2ed3-6ee5-da77-f549" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="406c-7f71-63dc-f9ec" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="6.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="21c6-a992-4cf3-3604" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="f302-cb6e-5855-b18a" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7361-2c10-7c38-096e" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="4.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5171-648d-67d8-b728" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="63ea-767e-32be-4825" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d2aa-523e-df37-49da" name="Axe" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="4c12-bcb6-5199-7fea" name="Axe" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Cutting edge</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selectionEntries>
-            <selectionEntry id="bd88-931f-5f93-5926" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="15.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="82ed-2b28-9384-ba8f" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="b5b7-8af2-6649-2270" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5a5d-7ee6-71a4-040d" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="10.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1f1b-0004-55b5-9bd1" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="42da-c365-4f9d-8f4e" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f3de-48a3-5693-897a" name="Morning Star" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="fc88-efcb-b962-e4cf" name="Morning Star" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Heavy, Difficult to use</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="36ab-eda3-d90d-f8cf" name="Difficult To Use" hidden="false" targetId="dc5e-6fdd-400e-ac09" type="rule"/>
-            <infoLink id="dca1-c5d9-a06c-087b" name="Heavy" hidden="false" targetId="a521-0400-ac0f-1bba" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="1fc6-f31c-93b2-42cc" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="45.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="37a2-c4b8-d142-0e61" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="8105-2cdb-9df4-a567" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f1b9-3a54-4d76-282b" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="30.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a1e0-802b-aae9-f9fb" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1071-7dfd-d18c-cf70" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="020a-b8f7-785c-0d03" name="Sword" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="e992-276f-916b-534b" name="Sword" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Parry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="065d-a471-3d79-a190" name="Parry" hidden="false" targetId="5ed4-9a5e-61d4-241a" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="34ae-a58d-2145-b9d3" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="30.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9107-77a6-439d-395d" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="d5df-f069-9425-9859" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="eb33-24c5-db1b-5065" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="20.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b19a-325b-1483-3f93" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="33ac-25f6-8cf0-d94d" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3ab3-2c4f-9e96-5b04" name="Double Handed Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="bb35-7108-c1be-6e25" name="Double Handed Weapon" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two-handed,  Strike last</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="b4e3-c984-0f3a-ed5f" name="Strike Last" hidden="false" targetId="27bd-6072-4e6f-ae34" type="rule"/>
-            <infoLink id="5489-bb52-159c-d738" name="Two Handed" hidden="false" targetId="bdc2-cc5b-c475-4677" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="5773-cf64-6daf-65ac" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="45.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a343-f18d-376b-3ff4" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="94e0-d636-317c-6361" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e228-cb8a-81e0-b02b" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="30.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd98-bfca-493b-a1cd" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="6e8a-affd-7367-2630" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9d21-b161-d229-6d76" name="Spear" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="a3bd-b0d5-c987-fc8f" name="Spear" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Unwieldy, Strike First, Calvary Bonus +1</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="c24b-2e77-c3a8-f849" name="Cavalry bonus" hidden="false" targetId="9a36-fe83-57ef-0b21" type="rule"/>
-            <infoLink id="36dd-44bf-4b82-1c63" name="Strike First" hidden="false" targetId="48f0-ab1b-b800-9b8c" type="rule"/>
-            <infoLink id="5c4d-522a-4d1c-dbcb" name="Unwieldy" hidden="false" targetId="fa81-1fef-abda-d120" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="505e-86e2-3f37-db8d" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="30.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d7d0-4d68-47cf-1a96" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1619-31e8-1aa2-4c4f" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="705f-4020-e9c2-fcde" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="20.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="35dc-3fe3-436f-320c" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="9bc5-3c1a-d9a1-35cf" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="45aa-14a8-957a-c527" name="Halberd" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="0e2e-c038-df2a-d9e6" name="Halberd" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+1</characteristic>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Two-handed</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="7c2d-5ca3-f83d-ee59" name="Two Handed" hidden="false" targetId="bdc2-cc5b-c475-4677" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="473b-4344-aed7-d0b2" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="30.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5916-5647-8279-a7e1" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="c149-7589-ba89-9697" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="525f-109e-8aa5-c170" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="20.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ed9c-b8db-848c-5573" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="80a9-4598-89eb-59b7" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2130-eed2-ad31-9552" name="Free Dagger" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9233-db1a-e6bf-feec" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="7768-2555-d6d0-0881" name="Free Dagger" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 enemey save</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="0129-c1f8-9354-8dc3" name="+1 Enemy armour save" hidden="false" targetId="2ed3-6ee5-da77-f549" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="78d5-d9bf-86fd-40b8" name="Club,Mace, Hammer" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="a737-de4a-eb85-9496" name="Club,Mace, Hammer" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Concussion</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="05c7-8333-5f2d-6d26" name="Concussion" hidden="false" targetId="3796-ee7a-f1cc-c82a" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="4da8-e0d3-64f2-36c8" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="9.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d79-d4f2-622f-9b9a" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="411b-015a-ceed-e2de" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9bed-b1c8-7f1e-590f" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="6.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7066-36a5-7a86-b215" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="71de-19d4-45c4-f856" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c408-0afc-c641-bd72" name="Fist" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="2b53-7453-7b80-37b5" name="Fist" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">+1 Enemy armour save:</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="afc1-ac86-483c-bc93" name="+1 Enemy armour save" hidden="false" targetId="2ed3-6ee5-da77-f549" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d2c3-7727-433b-7895" name="Flail" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="1265-8fcf-4ac8-c23f" name="Flail" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Heavy, Two-handed</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="5fc3-964a-adf0-3eb2" name="Heavy" hidden="false" targetId="a521-0400-ac0f-1bba" type="rule"/>
-            <infoLink id="9c48-0b39-5ed8-02f8" name="Two Handed" hidden="false" targetId="bdc2-cc5b-c475-4677" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="e9c1-555c-d4d2-3666" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="45.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba65-f450-8aab-2713" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="c83b-0dfb-1123-93ed" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f4d0-a4b8-260e-5e17" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="30.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2373-bdac-8133-37ca" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="5703-14af-e025-ffa1" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="399e-3661-cd2d-a6b4" name="Lance" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="0dab-c551-2212-0c58" name="Lance" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Calvary Weapon, Calvary Bonus +2</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="45f5-9cfa-0999-8d9a" name="Cavalry bonus" hidden="false" targetId="9a36-fe83-57ef-0b21" type="rule"/>
-            <infoLink id="6306-8917-60fd-efaa" name="Cavalry Weapon" hidden="false" targetId="db5a-3397-a455-d771" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="8840-794a-a8c1-3cb9" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="120.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a7ee-d539-f955-7957" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="64b7-bb74-a764-3ed2" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6531-2aec-dc3d-2410" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="80.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f545-02b9-845e-f3ee" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="65c7-53ae-af84-64a4" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="aea4-21fa-1e2b-e147" name="Ball and Chain" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="c806-a00a-ffa6-eb84" name="Ball and Chain" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
-              <characteristics>
-                <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68">+2</characteristic>
-                <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Incredible Force, Random, Two-handed, Cumbersome, Unwieldy</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="ecca-5690-447b-3a49" name="Incredible Force" page="0" hidden="false">
-              <description>No armour saves are allowed against wounds caused by a Ball and Chain and any hit that successfully wounds will do 1D3 wounds instead of 1
-
-</description>
-            </rule>
-            <rule id="48ef-1496-caa9-78a2" name="Random:" page="0" hidden="false">
-              <description>The first turn he starts swinging the Ball and Chain, the model is moved 2D6&quot; in a direction nominated by the controlling player. In his subsequent Movement phases, roll a D6 to determine
-what the model does:
-
-1)Model Is taken out of action,  When rolling for Injury after the game, a roll of 1-3 means the model is out permanently, instead of the normal 1-2.
-2-5 The model moves 2D6&quot; in a direction nominated by the controlling player.
-6 The model moves 2D6&quot; in a random direction. If the player owns a Scatter dice.
-
-the Ball and Chain wielding model moves into contact with another model (friend or foe), he counts as charging into close combat, and will engage in close combat until his next Movement phase. 
-
-Opponents wishing to attack a Ball and Chain wielding model suffer a To Hit penalty of -1, as they must dodge the whirling ball to get close enough to strike.
-
-The Ball and Chain wielder cannot be held in close combat and will automatically move even if h e starts the Movement phase in base contact with another model. If the model moves into contact with a building, wall, or other obstruction, he is automatically taken out of action.
-
-ignores the special rules for Animosity.
-
-</description>
-            </rule>
-            <rule id="539c-e644-a734-00b8" name="CumbersomE" page="0" hidden="false">
-              <description>a model equipped with one may carry no other weapons or equipment, only Mad Cap Mushrooms which they must have.</description>
-            </rule>
-            <rule id="6a20-7509-f9d3-1fde" name="Unwieldy:" page="0" hidden="false">
-              <description>at the end of the battle the controlling player must roll for Injury for each model that used a Ball and Chain, just as if the model had been taken out of action. If the model was actually taken out of action normally, just roll once for Injury.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <entryLinks>
+        <entryLink id="38a4-1654-7fe1-77bf" name="Axe" hidden="false" collective="false" import="true" targetId="2234-08c5-a2d4-54c6" type="selectionEntry"/>
+        <entryLink id="b3b2-6fcc-edb1-3738" name="Ball and Chain" hidden="false" collective="false" import="true" targetId="3b94-fe91-4a0a-1660" type="selectionEntry"/>
+        <entryLink id="ac02-7b12-4803-ad15" name="Club,Mace, Hammer" hidden="false" collective="false" import="true" targetId="935f-6e0a-5c6f-29ed" type="selectionEntry"/>
+        <entryLink id="b5ad-8c54-be1e-c1aa" name="Dagger" hidden="false" collective="false" import="true" targetId="9ab8-c64c-2553-0f4b" type="selectionEntry"/>
+        <entryLink id="d452-6609-40d1-44b5" name="Free Dagger" hidden="false" collective="false" import="true" targetId="bab8-3469-92c0-d6e4" type="selectionEntry"/>
+        <entryLink id="d6ad-2f9c-c2c6-dbf2" name="Double Handed Weapon" hidden="false" collective="false" import="true" targetId="cc91-996e-9405-85e9" type="selectionEntry"/>
+        <entryLink id="b654-ae25-86ad-0e3c" name="Fist" hidden="false" collective="false" import="true" targetId="042b-b835-d15c-946c" type="selectionEntry"/>
+        <entryLink id="2b56-8b45-d19c-b564" name="Flail" hidden="false" collective="false" import="true" targetId="5d57-784c-bbdd-094c" type="selectionEntry"/>
+        <entryLink id="ed83-02db-df0c-45f1" name="Halberd" hidden="false" collective="false" import="true" targetId="188b-6c92-d5a4-c1f3" type="selectionEntry"/>
+        <entryLink id="580b-f83b-39a2-c71c" name="Lance" hidden="false" collective="false" import="true" targetId="3a2c-e9ac-46bf-4018" type="selectionEntry"/>
+        <entryLink id="e14a-2a70-5b3d-102f" name="Morning Star" hidden="false" collective="false" import="true" targetId="dd17-d555-e617-923e" type="selectionEntry"/>
+        <entryLink id="5a54-a512-b930-d610" name="Spear" hidden="false" collective="false" import="true" targetId="d6ae-fde5-878e-873a" type="selectionEntry"/>
+        <entryLink id="6bb8-7864-e975-8ef4" name="Sword" hidden="false" collective="false" import="true" targetId="54d4-5dbf-fb3f-dd38" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="95a7-2795-d366-8014" name="Missile Weapons" hidden="false" collective="true" import="true">
       <constraints>
@@ -1067,223 +1373,22 @@ ignores the special rules for Animosity.
         <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2a3c-333a-031f-f5e9" type="min"/>
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="758a-a31d-edb2-983d" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="0466-dc6e-b2a8-ad5d" name="Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="286c-3abc-e586-9e87" name="Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6dc5-2479-788e-44d5" name="Cross Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="74df-c15d-604d-8c1b" name="Cross Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">30</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Move or fire: You may not move and fire a crossbow on the same turn, other than to pivot on the spot to face your target or to stand up.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ad37-6060-2bec-647b" name="Short Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="11fd-cdfe-4ac5-62d2" name="Short Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">16</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="662b-2d3d-72d1-fd60" name="Blunderbuss" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="b33e-3693-83af-a05e" name="Blunderbuss" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">16x1</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c"/>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Shot: When your model fires the blunderbuss, draw a line 16&quot; long and 1&quot; wide in any direction from the firer (the line must be absolutely straight). Any and all models in its path are automatically hit by a Strength 3 hit.   One fire per Battle</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="70cf-7bda-edb1-cae9" name="Crossbow Pistol" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="45d1-67f0-dfa4-0b00" name="Crossbow Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Shoot in hand-to-hand combat: A model armed with a crossbow pistol may shoot it in the first round of a hand-to-hand combat and this shot is always resolved first, before any blows are struck. This shot has an extra -2 to hit penalty. Use model’s Ballistic Skill to see whether it hits or not. This bonus attack is in addition to any close combat weapon attacks.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a2d6-d7ee-8784-74a7" name="Dueling Pistol" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="f8f2-1b24-7d8e-276e" name="Dueling Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">10</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Accuracy, Prepare shot, Save modifier, Hand-to-hand</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="4fff-daa2-e560-94b2" name="Hand to Hand" page="0" hidden="false">
-              <description>Pistols can be used in hand-to-hand combat as well as for shooting. A model armed with a pistol and another close combat weapon gains +1 Attack, which is resolved at Strength 4 with a -2 save modifier. This bonus attack can be used only once per combat. If you are firing a brace of pistols, your model can fight with 2 Attacks in the first turn of close combat. These attacks are resolved with a model’s Weapon Skill like any normal close combat attack and likewise may be parried. Successful hits are resolved at Strength 4 and with
-a -2 save modifier, regardless of the firer’s Strength.</description>
-            </rule>
-            <rule id="d21e-610a-0942-9a02" name="Accuracy" page="0" hidden="false">
-              <description>A duelling pistol is built for accuracy as a skilled duellist is able to hit a coin from twenty paces. All shots and close combat attacks from
-a duelling pistol have a +1 bonus to hit.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="36d7-3c5e-bf8e-a4ad" name="Gun Save modifier" hidden="false" targetId="05bb-7ebd-3469-efe4" type="rule"/>
-            <infoLink id="0f3f-8538-0cc6-17a5" name="Prepare shot" hidden="false" targetId="8ed4-2359-9606-2413" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e382-c609-6569-1a12" name="Elf Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="0221-9990-1c4f-f504" name="Elf Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">16</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">-1 Save modifier</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <entryLinks>
-            <entryLink id="4f6e-762d-cc9a-c875" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="61da-9405-7c08-d4fe" name="Hand Gun" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="aa35-8ab5-536c-f6c2" name="Hand Gun" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="47e7-c86b-da13-716d" name="Gun Save modifier" hidden="false" targetId="05bb-7ebd-3469-efe4" type="rule"/>
-            <infoLink id="c52f-c436-cd48-72c4" name="Move Of Fire" hidden="false" targetId="88ec-f0a9-72fc-2a6e" type="rule"/>
-            <infoLink id="3038-3065-da7b-fba1" name="Prepare shot" hidden="false" targetId="8ed4-2359-9606-2413" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="905b-23ef-87a8-5464" name="Long Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="5c61-63ba-7de8-1c3e" name="Long Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">30</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="74b1-99ff-b506-107b" name="Hunting Rifle" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <costs>
-            <cost name="pts" typeId="points" value="200.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ebad-5baf-df54-2c56" name="Pistol" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="1cff-9572-128e-f11b" name="Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">4</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Prepare shot, Save modifier, Hand-to-hand</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="d2d0-1c2f-6028-dbda" name="Hand-to-hand" page="0" hidden="false">
-              <description>Pistols can be used in hand-to-hand combat as well as for shooting. A model armed with a pistol and another close combat weapon gains +1 Attack, which is resolved at Strength 4 with a -2 save modifier. This bonus attack can be used only once per combat. If you are firing a brace of pistols, your model can fight with 2 Attacks in the first turn of close combat. These attacks are resolved with a model’s Weapon Skill like any normal close combat attack and likewise may be parried. Successful hits are resolved at Strength 4 and with
-a -2 save modifier, regardless of the firer’s Strength.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6bdb-2c2b-aca9-07a7" name="Repeater Crossbow" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="9f62-25d5-1d5c-1bde" name="Repeater Crossbow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">24</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Fire twice: A model armed with a repeater crossbow may choose to fire twice per turn with an extra -1 to hit penalty on both shots.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f263-9cc4-5d95-333f" name="Sling" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="9c81-242f-7396-cd2c" name="Sling" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">18</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">3</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Fire twice at half range: A slinger may fire twice in the shooting phase if he does not move in the movement phase. He cannot shoot over half range (9&quot;) though, if he fires twice. If the model fires twice theneach shot is at -1 to hit.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="38bb-40f3-00b4-e424" name="Throwing Knives/stars" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="7f1d-a3c2-6b6d-662d" name="Throwing Knives/stars" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a275054b-9b3d-9e68-49e9-7fbb6c714412">6</characteristic>
-                <characteristic name="Str" typeId="0e9e02bf-4d20-7ac3-d67f-67172b142b5c">U</characteristic>
-                <characteristic name="Special" typeId="fde90816-abbb-f019-75a0-0c24662facf3">Thrown weapon: Models using throwing stars or knives do not suffer penalties for range or moving as these weapons are perfectly balanced for throwing. They cannot be used in close combat.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3d87-a29a-4695-f7a1" name="Blunderbuss" hidden="false" collective="false" import="true" targetId="8697-546d-18a0-4fd0" type="selectionEntry"/>
+        <entryLink id="4762-e75d-f56a-89b8" name="Bow" hidden="false" collective="false" import="true" targetId="87eb-7333-9301-f8c2" type="selectionEntry"/>
+        <entryLink id="e005-40e1-8951-eb03" name="Cross Bow" hidden="false" collective="false" import="true" targetId="a8d3-b45e-54bf-9e35" type="selectionEntry"/>
+        <entryLink id="b80b-cbc5-e158-f65a" name="Crossbow Pistol" hidden="false" collective="false" import="true" targetId="12b1-6ad0-4a35-80c2" type="selectionEntry"/>
+        <entryLink id="eaf3-fa4a-be5a-df1f" name="Dueling Pistol" hidden="false" collective="false" import="true" targetId="bd8b-33b6-603b-6d15" type="selectionEntry"/>
+        <entryLink id="0eaa-46fa-b5af-e914" name="Elf Bow" hidden="false" collective="false" import="true" targetId="0c66-9f78-7e56-1e1b" type="selectionEntry"/>
+        <entryLink id="3e70-5c66-9fd7-24ee" name="Hand Gun" hidden="false" collective="false" import="true" targetId="d34e-51f1-9528-f078" type="selectionEntry"/>
+        <entryLink id="1f77-8609-d38e-fa0d" name="Hunting Rifle" hidden="false" collective="false" import="true" targetId="8957-bb5f-fdab-c4d1" type="selectionEntry"/>
+        <entryLink id="6726-8434-3252-9efe" name="Long Bow" hidden="false" collective="false" import="true" targetId="0124-e1dd-4a63-60c9" type="selectionEntry"/>
+        <entryLink id="d3d8-e5b9-65cd-4aee" name="Pistol" hidden="false" collective="false" import="true" targetId="34e4-5696-301a-48cb" type="selectionEntry"/>
+        <entryLink id="11f8-9cbf-7c4f-adde" name="Repeater Crossbow" hidden="false" collective="false" import="true" targetId="7643-c34d-554b-a0e8" type="selectionEntry"/>
+        <entryLink id="e3b4-8162-d6fa-750b" name="Short Bow" hidden="false" collective="false" import="true" targetId="3623-4a7c-e6e9-e2af" type="selectionEntry"/>
+        <entryLink id="a17c-bf9b-4c30-5858" name="Sling" hidden="false" collective="false" import="true" targetId="bc17-e0a4-cc3c-6a5a" type="selectionEntry"/>
+        <entryLink id="1271-d669-e055-b56f" name="Throwing Knives/stars" hidden="false" collective="false" import="true" targetId="6d5d-0f01-aa16-4cb3" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8e8b-a30c-5c39-db3e" name="Serious Injuries" hidden="false" collective="false" import="true">
       <constraints>

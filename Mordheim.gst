@@ -73,57 +73,57 @@
     <infoLink id="3d08-9f3e-b012-c419" name="EXP Adancement" hidden="false" targetId="942a-cf0f-028c-ae1c" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="5c7e-9a15-e6a2-3dde" name="+1 A" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5c7e-9a15-e6a2-3dde" name="+ A" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="94b2-1727-ed67-2ebd" name="+1 BS" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="94b2-1727-ed67-2ebd" name="+ BS" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c0e-5b4f-d513-9819" name="+1 I" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9c0e-5b4f-d513-9819" name="+ I" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f22-ccc1-95a6-f2d1" name="+1 LD" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5f22-ccc1-95a6-f2d1" name="+ LD" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8f0-2d81-50b7-00ae" name="+1 M" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f8f0-2d81-50b7-00ae" name="+ M" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8358-b940-6f98-6e11" name="+1 S" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8358-b940-6f98-6e11" name="+ S" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="60d2-e14f-bdf9-9d4b" name="+1 T" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="60d2-e14f-bdf9-9d4b" name="+ T" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e859-5c9b-f27b-73be" name="+1 W" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e859-5c9b-f27b-73be" name="+ W" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="893f-8a30-c85d-e995" name="+1 WS" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="893f-8a30-c85d-e995" name="+ WS" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8342-094e-8510-2b57" name="-1 A" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8342-094e-8510-2b57" name="- A" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b46c-26d5-a8d0-86b9" name="-1 BS" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b46c-26d5-a8d0-86b9" name="- BS" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e4f0-6df9-914e-a1f1" type="min"/>
       </constraints>
@@ -131,7 +131,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5bcf-1538-f631-7cb7" name="-1 I" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5bcf-1538-f631-7cb7" name="- I" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aa3e-8afe-5ba5-ee5e" type="min"/>
       </constraints>
@@ -139,12 +139,12 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2dc-5621-c08e-e789" name="-1 LD" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f2dc-5621-c08e-e789" name="- LD" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e864-d41b-1034-8eb5" name="-1 M" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e864-d41b-1034-8eb5" name="- M" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1ab-8119-1778-b088" type="min"/>
       </constraints>
@@ -152,12 +152,12 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d87-b2ea-1bdd-0baa" name="-1 S" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6d87-b2ea-1bdd-0baa" name="- S" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ef6-2716-8508-f0e9" name="-1 T" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0ef6-2716-8508-f0e9" name="- T" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="769d-c714-181d-32f2" type="min"/>
       </constraints>
@@ -165,7 +165,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="418d-c4e9-cf36-8a87" name="-1 WS" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="418d-c4e9-cf36-8a87" name="- WS" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ff4-9a43-e9bd-b4da" type="min"/>
       </constraints>
@@ -173,7 +173,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a96e-c49f-8431-bb70" name="-1 W" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a96e-c49f-8431-bb70" name="- W" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -196,7 +196,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac7c-6d84-e54a-66ba" name="Barding" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ac7c-6d84-e54a-66ba" name="Barding" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="3502-ba0d-4fc6-1be8" name="Barding" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -212,7 +212,7 @@
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e539-99d3-7cad-ba45" name="Buckler" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e539-99d3-7cad-ba45" name="Buckler" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="9d44-a074-c5c1-771f" name="Buckler" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -228,7 +228,7 @@
         <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c6b-8fc9-8bdb-c7b1" name="Gromril Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6c6b-8fc9-8bdb-c7b1" name="Gromril Armour" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="930c-dd3e-4846-2cf3" name="Gromril Armour" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -241,7 +241,7 @@
         <cost name="pts" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9277-6629-bab6-c9fb" name="Heavy Armor" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9277-6629-bab6-c9fb" name="Heavy Armor" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="2ebf-9102-e2d0-4ce9" name="Heavy Armor" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -254,7 +254,7 @@
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c876-afcd-c2b9-4770" name="Helmet" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c876-afcd-c2b9-4770" name="Helmet" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="c64f-0dc8-6b9e-43f3" name="Helmet" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -270,7 +270,7 @@
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="80bc-e219-7934-5474" name="Ithilmar Armour" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="80bc-e219-7934-5474" name="Ithilmar Armour" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="1f4f-0ccf-808b-4554" name="Ithilmar Armour" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -283,7 +283,7 @@
         <cost name="pts" typeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="655c-a55a-ccd8-f856" name="Light Armor" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="655c-a55a-ccd8-f856" name="Light Armor" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="4609-3b1e-d5a1-8b12" name="Light Armor" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -296,7 +296,7 @@
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d436-3ae9-dc5c-344c" name="Shield" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d436-3ae9-dc5c-344c" name="Shield" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="a0f2-abea-1421-70b7" name="Shield" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -309,7 +309,7 @@
         <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2234-08c5-a2d4-54c6" name="Axe" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2234-08c5-a2d4-54c6" name="Axe" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="f6c2-9ada-0078-57fa" name="Axe" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -319,7 +319,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="fb4b-bddb-bb59-7fb1" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fb4b-bddb-bb59-7fb1" name="Gromril Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="15.0"/>
           </modifiers>
@@ -333,7 +333,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4888-d7dd-84a8-ae63" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4888-d7dd-84a8-ae63" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="10.0"/>
           </modifiers>
@@ -352,7 +352,7 @@
         <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3b94-fe91-4a0a-1660" name="Ball and Chain" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3b94-fe91-4a0a-1660" name="Ball and Chain" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="5efa-e260-8631-6834" name="Ball and Chain" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -396,7 +396,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="935f-6e0a-5c6f-29ed" name="Club,Mace, Hammer" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="935f-6e0a-5c6f-29ed" name="Club,Mace, Hammer" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="fb94-7386-8799-705d" name="Club,Mace, Hammer" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -409,7 +409,7 @@ ignores the special rules for Animosity.
         <infoLink id="0a94-412f-a791-95d6" name="Concussion" hidden="false" targetId="3796-ee7a-f1cc-c82a" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="a4a8-3a7e-037e-d040" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a4a8-3a7e-037e-d040" name="Gromril Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="9.0"/>
           </modifiers>
@@ -423,7 +423,7 @@ ignores the special rules for Animosity.
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f290-b462-89f6-30ea" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f290-b462-89f6-30ea" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="6.0"/>
           </modifiers>
@@ -442,7 +442,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9ab8-c64c-2553-0f4b" name="Dagger" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9ab8-c64c-2553-0f4b" name="Dagger" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="a30d-8858-b3c9-72e3" name="Dagger" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -455,7 +455,7 @@ ignores the special rules for Animosity.
         <infoLink id="3c58-39ca-a5b4-68ae" name="+1 Enemy armour save" hidden="false" targetId="2ed3-6ee5-da77-f549" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="1388-650d-35fd-992c" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1388-650d-35fd-992c" name="Gromril Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="6.0"/>
           </modifiers>
@@ -469,7 +469,7 @@ ignores the special rules for Animosity.
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3b3d-961c-c5e7-31ce" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3b3d-961c-c5e7-31ce" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="4.0"/>
           </modifiers>
@@ -488,7 +488,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bab8-3469-92c0-d6e4" name="Free Dagger" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bab8-3469-92c0-d6e4" name="Free Dagger" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f9e-036d-a81b-8a9b" type="max"/>
       </constraints>
@@ -507,7 +507,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cc91-996e-9405-85e9" name="Double Handed Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cc91-996e-9405-85e9" name="Double Handed Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="75ae-9b71-f51e-41ef" name="Double Handed Weapon" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -521,7 +521,7 @@ ignores the special rules for Animosity.
         <infoLink id="0708-5cd2-3e06-ff34" name="Two Handed" hidden="false" targetId="bdc2-cc5b-c475-4677" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="cc8b-acec-e0c5-f393" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cc8b-acec-e0c5-f393" name="Gromril Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="45.0"/>
           </modifiers>
@@ -535,7 +535,7 @@ ignores the special rules for Animosity.
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="123b-d11f-ed22-1639" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="123b-d11f-ed22-1639" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="30.0"/>
           </modifiers>
@@ -554,7 +554,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="042b-b835-d15c-946c" name="Fist" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="042b-b835-d15c-946c" name="Fist" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="3221-5c23-cc05-4bda" name="Fist" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -570,7 +570,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d57-784c-bbdd-094c" name="Flail" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5d57-784c-bbdd-094c" name="Flail" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="9068-dc00-c4ae-8071" name="Flail" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -584,7 +584,7 @@ ignores the special rules for Animosity.
         <infoLink id="2fa6-3f81-3bd2-e678" name="Two Handed" hidden="false" targetId="bdc2-cc5b-c475-4677" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="0021-de35-7c17-8343" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0021-de35-7c17-8343" name="Gromril Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="45.0"/>
           </modifiers>
@@ -598,7 +598,7 @@ ignores the special rules for Animosity.
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3c96-cef4-0d69-1e88" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3c96-cef4-0d69-1e88" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="30.0"/>
           </modifiers>
@@ -617,7 +617,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="188b-6c92-d5a4-c1f3" name="Halberd" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="188b-6c92-d5a4-c1f3" name="Halberd" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="9466-ab7d-1a9b-e493" name="Halberd" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -630,7 +630,7 @@ ignores the special rules for Animosity.
         <infoLink id="27c2-7a33-b10f-4287" name="Two Handed" hidden="false" targetId="bdc2-cc5b-c475-4677" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="69e7-5a3f-50e1-5ea3" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="69e7-5a3f-50e1-5ea3" name="Gromril Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="30.0"/>
           </modifiers>
@@ -644,7 +644,7 @@ ignores the special rules for Animosity.
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dfdd-25d5-f2cf-1390" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="dfdd-25d5-f2cf-1390" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="20.0"/>
           </modifiers>
@@ -663,7 +663,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3a2c-e9ac-46bf-4018" name="Lance" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3a2c-e9ac-46bf-4018" name="Lance" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="9aa9-ded4-b9b6-68f5" name="Lance" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -677,7 +677,7 @@ ignores the special rules for Animosity.
         <infoLink id="d9cb-7e02-4178-011e" name="Cavalry Weapon" hidden="false" targetId="db5a-3397-a455-d771" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="13f8-65b1-3381-6ea2" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="13f8-65b1-3381-6ea2" name="Gromril Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="120.0"/>
           </modifiers>
@@ -691,7 +691,7 @@ ignores the special rules for Animosity.
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="204c-32f3-8a17-53b1" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="204c-32f3-8a17-53b1" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="80.0"/>
           </modifiers>
@@ -710,7 +710,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dd17-d555-e617-923e" name="Morning Star" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dd17-d555-e617-923e" name="Morning Star" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="a134-329b-ef4a-52d4" name="Morning Star" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -724,7 +724,7 @@ ignores the special rules for Animosity.
         <infoLink id="46a9-f398-d35e-5a53" name="Heavy" hidden="false" targetId="a521-0400-ac0f-1bba" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="a412-1cf3-d0bd-abe8" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a412-1cf3-d0bd-abe8" name="Gromril Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="45.0"/>
           </modifiers>
@@ -738,7 +738,7 @@ ignores the special rules for Animosity.
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3497-2afb-ed47-10fe" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3497-2afb-ed47-10fe" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="30.0"/>
           </modifiers>
@@ -757,7 +757,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6ae-fde5-878e-873a" name="Spear" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d6ae-fde5-878e-873a" name="Spear" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="71e4-9c43-6f1b-5a6d" name="Spear" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -772,7 +772,7 @@ ignores the special rules for Animosity.
         <infoLink id="c024-1ddc-ca34-5cff" name="Unwieldy" hidden="false" targetId="fa81-1fef-abda-d120" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="c017-5824-a121-55f7" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c017-5824-a121-55f7" name="Gromril Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="30.0"/>
           </modifiers>
@@ -786,7 +786,7 @@ ignores the special rules for Animosity.
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7c7b-1b66-4f63-a8e2" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7c7b-1b66-4f63-a8e2" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="20.0"/>
           </modifiers>
@@ -805,7 +805,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="54d4-5dbf-fb3f-dd38" name="Sword" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="54d4-5dbf-fb3f-dd38" name="Sword" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="7e21-08b6-4ecb-f747" name="Sword" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -818,7 +818,7 @@ ignores the special rules for Animosity.
         <infoLink id="ca46-3bca-7508-783a" name="Parry" hidden="false" targetId="5ed4-9a5e-61d4-241a" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="8e52-ef8d-38aa-acb2" name="Gromril Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8e52-ef8d-38aa-acb2" name="Gromril Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="30.0"/>
           </modifiers>
@@ -832,7 +832,7 @@ ignores the special rules for Animosity.
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="860b-c93c-1981-f028" name="Ithilmar weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="860b-c93c-1981-f028" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="points" value="20.0"/>
           </modifiers>
@@ -851,7 +851,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8697-546d-18a0-4fd0" name="Blunderbuss" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8697-546d-18a0-4fd0" name="Blunderbuss" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="7de9-fe02-b4b8-bd6d" name="Blunderbuss" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -865,7 +865,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="87eb-7333-9301-f8c2" name="Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="87eb-7333-9301-f8c2" name="Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="803f-4c70-d1ba-2d2c" name="Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -879,7 +879,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8d3-b45e-54bf-9e35" name="Cross Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a8d3-b45e-54bf-9e35" name="Cross Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="7b14-ec6e-32cb-3c7c" name="Cross Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -893,7 +893,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="12b1-6ad0-4a35-80c2" name="Crossbow Pistol" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="12b1-6ad0-4a35-80c2" name="Crossbow Pistol" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="1202-c209-78f6-22ab" name="Crossbow Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -907,7 +907,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd8b-33b6-603b-6d15" name="Dueling Pistol" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bd8b-33b6-603b-6d15" name="Dueling Pistol" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="ae00-fad6-3675-2344" name="Dueling Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -935,7 +935,7 @@ a duelling pistol have a +1 bonus to hit.</description>
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c66-9f78-7e56-1e1b" name="Elf Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0c66-9f78-7e56-1e1b" name="Elf Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="bd42-70e6-36d5-7204" name="Elf Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -952,7 +952,7 @@ a duelling pistol have a +1 bonus to hit.</description>
         <cost name="pts" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d34e-51f1-9528-f078" name="Hand Gun" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d34e-51f1-9528-f078" name="Hand Gun" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="7146-dafb-a7d7-a93a" name="Hand Gun" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -971,12 +971,12 @@ a duelling pistol have a +1 bonus to hit.</description>
         <cost name="pts" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8957-bb5f-fdab-c4d1" name="Hunting Rifle" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8957-bb5f-fdab-c4d1" name="Hunting Rifle" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0124-e1dd-4a63-60c9" name="Long Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0124-e1dd-4a63-60c9" name="Long Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="8028-9162-0864-3e6d" name="Long Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -990,7 +990,7 @@ a duelling pistol have a +1 bonus to hit.</description>
         <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="34e4-5696-301a-48cb" name="Pistol" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="34e4-5696-301a-48cb" name="Pistol" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="36ef-6de5-406d-442b" name="Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1010,7 +1010,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7643-c34d-554b-a0e8" name="Repeater Crossbow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7643-c34d-554b-a0e8" name="Repeater Crossbow" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="ff1f-306e-2247-10b9" name="Repeater Crossbow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1024,7 +1024,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3623-4a7c-e6e9-e2af" name="Short Bow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3623-4a7c-e6e9-e2af" name="Short Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="1d73-2872-94cd-7d77" name="Short Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1038,7 +1038,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc17-e0a4-cc3c-6a5a" name="Sling" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bc17-e0a4-cc3c-6a5a" name="Sling" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="f4ac-7126-532b-a636" name="Sling" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1052,7 +1052,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <cost name="pts" typeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d5d-0f01-aa16-4cb3" name="Throwing Knives/stars" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6d5d-0f01-aa16-4cb3" name="Throwing Knives/stars" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="5fd8-4045-095f-e92e" name="Throwing Knives/stars" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1336,16 +1336,6 @@ only applies when they are armed with normal swords or weeping blades, and not w
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="3cfe-2004-24e1-1015" name="Hand to Hand Weapons" hidden="false" collective="true" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c80-4f86-e1bb-5b9c" type="min"/>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d48-f45a-4178-b1b9" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c06-0363-7872-84d7" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="473f-314f-ddec-1ff2" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f368-f28d-d75d-9737" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="220c-1331-279f-dcdd" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a07a-7cae-0cef-73c8" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a788-cd8b-2f71-7107" type="max"/>
-      </constraints>
       <entryLinks>
         <entryLink id="38a4-1654-7fe1-77bf" name="Axe" hidden="false" collective="false" import="true" targetId="2234-08c5-a2d4-54c6" type="selectionEntry"/>
         <entryLink id="b3b2-6fcc-edb1-3738" name="Ball and Chain" hidden="false" collective="false" import="true" targetId="3b94-fe91-4a0a-1660" type="selectionEntry"/>

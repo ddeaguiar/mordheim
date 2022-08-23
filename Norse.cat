@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="65788600-7fa0-eb7c-b1a3-36d0c3c506c6" name="Norse" revision="2" battleScribeVersion="2.03" authorName="Daniel De Aguiar" library="true" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="65788600-7fa0-eb7c-b1a3-36d0c3c506c6" name="Norse" revision="2" battleScribeVersion="2.03" authorName="Daniel De Aguiar" library="false" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>Norse Warband from Town Cryer Issue 13</comment>
   <publications>
     <publication id="46c9-8925-4636-2b89" name="Town Cryer Issue 13" shortName="Town Cryer Issue 13" publisher="Town Cryer Issue 13" publicationDate="2001" publisherUrl="https://broheim.net/downloads/towncryer/TownCryer13.pdf"/>
     <publication id="e0c2-931b-d4ee-1643" name="Town Cryer Issue 11" shortName="Town Cryer Issue 11" publisher="Town Cryer Issue 11" publicationDate="2000"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="1681-ac3b-7d15-b17b" name="Marauders" publicationId="46c9-8925-4636-2b89" page="18" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1681-ac3b-7d15-b17b" name="Marauders" publicationId="46c9-8925-4636-2b89" page="18" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eef7-dd48-3746-cbfe" type="max"/>
+      </constraints>
       <profiles>
         <profile id="03db3be8-cefc-ad94-7afb-227b97cb7434" name="Marauders" page="0" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
           <modifiers>
@@ -113,41 +116,26 @@
         <categoryLink id="074d9cc5-ab18-5302-91eb-29f4f9d61bcc-f9b08d8e-4922-78d5-78ad-2047bff52dc8" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="38f17f5d-5cb6-91b3-1e1a-97d8f3eb211e" name="Equipment" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
+        <selectionEntry id="de89-e8bb-ea45-1b33" name="Marauder" hidden="false" collective="false" import="true" type="model">
           <entryLinks>
-            <entryLink id="7de5f8f9-b8fb-02db-1b9d-37658dd743e8" name="Henchmen Equipment" hidden="false" collective="false" import="true" targetId="a58f-1dcd-1a6d-8430" type="selectionEntryGroup"/>
+            <entryLink id="284a-bc58-fc8b-80c9" name="Henchmen Equipment" hidden="false" collective="false" import="true" targetId="a58f-1dcd-1a6d-8430" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="013f9186-66c1-6305-f439-f00681e1eba3" name="Characteristic Increases" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="f7f4f8bf-03e2-f72b-50df-d5db42554776" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="b437-a39a-e044-1264" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="faa8d372-77d4-33a4-1a08-49fe27633c52" name="Experience" hidden="false" collective="false" import="true" targetId="db9e-119c-2891-c515" type="selectionEntry"/>
+        <entryLink id="6e7c-8091-6a29-6070" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="b437-a39a-e044-1264" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="889151de-4826-5f00-5dbb-fcf546ebedbb" name="Wolves" publicationId="46c9-8925-4636-2b89" page="18" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="889151de-4826-5f00-5dbb-fcf546ebedbb" name="Wolves" publicationId="46c9-8925-4636-2b89" page="18" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c957-66cf-0b4e-7394" type="max"/>
       </constraints>
       <profiles>
         <profile id="3c3321d3-a734-5b7d-2aa0-548348ab9115" name="Wolves" publicationId="46c9-8925-4636-2b89" page="18" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -175,9 +163,16 @@
       <categoryLinks>
         <categoryLink id="889151de-4826-5f00-5dbb-fcf546ebedbb-f9b08d8e-4922-78d5-78ad-2047bff52dc8" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="15.0"/>
-      </costs>
+      <selectionEntries>
+        <selectionEntry id="1d6a-dc5c-fbbd-070f" name="Wolf" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="roster" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7bc9-2144-f080-4438" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry id="93700e68-f80c-ad1c-b5cd-06fd3c7e7537" name="Bondsmen" publicationId="46c9-8925-4636-2b89" page="17" hidden="false" collective="false" import="true" type="model">
       <comment>These are young fighters who are still inexperienced and they are &amp;apos;bonded&amp;apos; to the Jarl by the oath of servitude.</comment>
@@ -630,51 +625,39 @@
         <categoryLink id="83acbe09-ec66-c45c-0f5b-1a9e0017016e-a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a359fe11-ad97-3216-79e2-42fa0fcef557" name="Equipment" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="43ff-b0fc-0db1-4052" name="Equipment" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f85-c435-d110-efc5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d52-e38c-b9cc-39d8" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="265b97b3-483f-58f3-f7a4-780ba166d059" name="Hero Equipment" hidden="false" collective="false" import="true" targetId="f987-95c4-3bab-63c0" type="selectionEntryGroup"/>
+            <entryLink id="c0d9-5649-d961-7d27" name="Hero Equipment" hidden="false" collective="false" import="true" targetId="f987-95c4-3bab-63c0" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="56248f6d-5ee0-e166-254d-f40501f26f09" name="Serious Injuries" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1cec-6360-8fff-c157" name="Skills" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ed9-d593-2085-60ef" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec66-4746-acc5-ef76" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4da70b4b-2903-8bb7-49aa-a8226f14561b" name="Serious Injuries" hidden="false" collective="false" import="true" targetId="8e8b-a30c-5c39-db3e" type="selectionEntryGroup"/>
+            <entryLink id="2465-43cf-045d-e02f" name="Combat Skills" hidden="false" collective="false" import="true" targetId="5716-1e51-9ed0-a8d3" type="selectionEntryGroup"/>
+            <entryLink id="0f67-eed6-f263-ee4b" name="Norse Special Skills" hidden="false" collective="false" import="true" targetId="f8cb9c64-fd91-ecfd-2e82-5ec10ec7ef53" type="selectionEntryGroup"/>
+            <entryLink id="8eea-e138-15af-59ec" name="Speed Skills" hidden="false" collective="false" import="true" targetId="38b3-97e2-b32a-0ec8" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a9874b15-5410-29f0-f05c-e629500fc5f5" name="Characteristic Increases" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6ee7-ea81-2f85-1ff9" name="Serious Injuries" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a6f-e9ec-888b-b6a3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8218-177c-5734-7a88" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4e184abe-fdce-287e-ab88-b98585f03810" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="b437-a39a-e044-1264" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5d5c6559-2773-1cc5-3835-0eb5869758f2" name="Skills" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="1a55ca39-174e-b3bd-5c43-b37a709bd42f" name="Speed Skills" hidden="false" collective="false" import="true" targetId="38b3-97e2-b32a-0ec8" type="selectionEntryGroup"/>
-            <entryLink id="7dfe147c-aba4-13bc-bf11-383a8c4f97f3" name="Combat Skills" hidden="false" collective="false" import="true" targetId="5716-1e51-9ed0-a8d3" type="selectionEntryGroup"/>
-            <entryLink id="1cd8773e-95ba-8894-60bc-b9371a36d1b4" name="Norse Special Skills" hidden="false" collective="false" import="true" targetId="f8cb9c64-fd91-ecfd-2e82-5ec10ec7ef53" type="selectionEntryGroup"/>
+            <entryLink id="6073-870c-4062-7c7b" name="Serious Injuries" hidden="false" collective="false" import="true" targetId="8e8b-a30c-5c39-db3e" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -683,14 +666,15 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="9e2cb516-6834-4a3e-ec39-9855b3d6ed2d" name="Experience" hidden="false" collective="false" import="true" targetId="db9e-119c-2891-c515" type="selectionEntry"/>
+        <entryLink id="d2d3-c4ad-d8b7-cbc2" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="b437-a39a-e044-1264" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="16763088-15c1-4f72-fdfe-153003be4a24" name="Hunters" publicationId="46c9-8925-4636-2b89" page="18" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="16763088-15c1-4f72-fdfe-153003be4a24" name="Hunters" publicationId="46c9-8925-4636-2b89" page="18" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="281f-1e0f-6d58-6fb0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67c1-6620-9c90-3788" type="max"/>
       </constraints>
       <profiles>
         <profile id="c28d122f-8919-90c6-7469-fc97ffa650c7" name="Hunters" page="0" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
@@ -798,36 +782,27 @@
         <categoryLink id="16763088-15c1-4f72-fdfe-153003be4a24-f9b08d8e-4922-78d5-78ad-2047bff52dc8" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="579963c2-b42f-2254-f6e0-c4746cd13fc4" name="Equipment" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="877c-f1ce-6f08-3143" name="Hunter" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a486-da67-591d-7e42" type="max"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink id="9be7-a18b-290e-49d4" name="Henchmen" hidden="false" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="false"/>
+          </categoryLinks>
           <entryLinks>
-            <entryLink id="04058374-6be1-5c6b-05d9-c5b9abf9f92c" name="Hunter Equipment" hidden="false" collective="false" import="true" targetId="0091-c9c8-381e-28f2" type="selectionEntryGroup"/>
+            <entryLink id="1019-3f70-fc07-c310" name="Hunter Equipment" hidden="false" collective="true" import="true" targetId="0091-c9c8-381e-28f2" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5dfc9f4e-4a13-6419-31a3-65479d1ab46e" name="Characteristic Increases" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="361cac7b-215e-9a22-6c51-c04e043f825d" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="b437-a39a-e044-1264" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="3ace7cec-b98a-8120-c6ce-caf458afb673" name="Experience" hidden="false" collective="false" import="true" targetId="db9e-119c-2891-c515" type="selectionEntry"/>
+        <entryLink id="8d50-1c83-9034-310e" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="b437-a39a-e044-1264" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55bb-4681-eb4a-ef8e" name="Berserkers" publicationId="46c9-8925-4636-2b89" page="17" hidden="false" collective="false" import="true" type="model">
@@ -951,13 +926,14 @@
         <categoryLink id="bbee-08b2-63d8-0d05" hidden="false" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4aa8-5b3c-6826-921c" name="Equipment" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4aa8-5b3c-6826-921c" name="Equipment" page="0" hidden="false" collective="true" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="36ca-fdca-8690-1a24" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b49-4e2b-7e06-7f2c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="f72a-b831-9ef3-eb13" name="Hero Equipment" hidden="false" collective="false" import="true" targetId="f987-95c4-3bab-63c0" type="selectionEntryGroup"/>
+            <entryLink id="b30b-5b9f-e82e-54da" name="Hero Hand to Hand Weapons" hidden="false" collective="false" import="true" targetId="bdc8-2a5d-7592-c152" type="selectionEntryGroup"/>
+            <entryLink id="2aea-fcd4-a2ec-cc9b" name="Hero/Henchmen Missile Weapons" hidden="false" collective="false" import="true" targetId="a105-d6a2-2cb3-a1ae" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -1097,7 +1073,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="bdc8-2a5d-7592-c152" name="Hero Hand to Hand Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="bdc8-2a5d-7592-c152" name="Hero Hand to Hand Weapons" hidden="false" collective="true" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="33f9-8ab4-405d-62eb" type="min"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c6f3-6f76-c4d8-c10b" type="max"/>
@@ -1110,6 +1086,11 @@
       </constraints>
       <entryLinks>
         <entryLink id="2876-2c33-20ce-5ede" name="Flail" hidden="false" collective="false" import="true" targetId="5d57-784c-bbdd-094c" type="selectionEntry"/>
+        <entryLink id="2626-4494-c02b-4853" name="Dagger" hidden="false" collective="false" import="true" targetId="9ab8-c64c-2553-0f4b" type="selectionEntry"/>
+        <entryLink id="b0fa-0181-4040-52c8" name="Club,Mace, Hammer" hidden="false" collective="false" import="true" targetId="935f-6e0a-5c6f-29ed" type="selectionEntry"/>
+        <entryLink id="b37f-e63c-02bd-a228" name="Axe" hidden="false" collective="false" import="true" targetId="2234-08c5-a2d4-54c6" type="selectionEntry"/>
+        <entryLink id="4238-49a3-278c-9be0" name="Sword" hidden="false" collective="false" import="true" targetId="54d4-5dbf-fb3f-dd38" type="selectionEntry"/>
+        <entryLink id="6501-948e-0256-5e2c" name="Double Handed Weapon" hidden="false" collective="false" import="true" targetId="cc91-996e-9405-85e9" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="c9e3-2830-a31a-33c5" name="Hunter/Henchmen Hand to Hand Weapons" hidden="false" collective="true" import="true">
@@ -1187,7 +1168,7 @@
         <entryLink id="3723-4913-e770-9dfc" name="Bow" hidden="false" collective="false" import="true" targetId="87eb-7333-9301-f8c2" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="183b-5471-d632-e35f" name="Base Armor" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="183b-5471-d632-e35f" name="Base Armor" hidden="false" collective="true" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8667-ca7b-7f9e-b99d" type="min"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d71-6b54-5e05-f2c4" type="max"/>
@@ -1219,7 +1200,7 @@
         <entryLink id="ed33-3cec-7bdd-aa70" name="Light Armor" hidden="false" collective="false" import="true" targetId="655c-a55a-ccd8-f856" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f987-95c4-3bab-63c0" name="Hero Equipment" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f987-95c4-3bab-63c0" name="Hero Equipment" hidden="false" collective="true" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="80fe-6837-4b3d-d4dc" type="min"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6bcf-56fe-4c24-b4d1" type="max"/>

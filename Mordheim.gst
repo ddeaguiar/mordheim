@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="9481a749-7900-614b-1695-bdc2899069c1" name="Mordheim" revision="16" battleScribeVersion="2.03" authorName="James" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
-    <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
+    <costType id="points" name="gc" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" name="Model">
@@ -75,52 +75,52 @@
   <sharedSelectionEntries>
     <selectionEntry id="5c7e-9a15-e6a2-3dde" name="+ A" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="94b2-1727-ed67-2ebd" name="+ BS" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c0e-5b4f-d513-9819" name="+ I" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5f22-ccc1-95a6-f2d1" name="+ LD" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8f0-2d81-50b7-00ae" name="+ M" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8358-b940-6f98-6e11" name="+ S" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="60d2-e14f-bdf9-9d4b" name="+ T" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e859-5c9b-f27b-73be" name="+ W" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="893f-8a30-c85d-e995" name="+ WS" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8342-094e-8510-2b57" name="- A" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b46c-26d5-a8d0-86b9" name="- BS" hidden="false" collective="false" import="true" type="upgrade">
@@ -128,7 +128,7 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e4f0-6df9-914e-a1f1" type="min"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5bcf-1538-f631-7cb7" name="- I" hidden="false" collective="false" import="true" type="upgrade">
@@ -136,12 +136,12 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aa3e-8afe-5ba5-ee5e" type="min"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2dc-5621-c08e-e789" name="- LD" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e864-d41b-1034-8eb5" name="- M" hidden="false" collective="false" import="true" type="upgrade">
@@ -149,12 +149,12 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1ab-8119-1778-b088" type="min"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d87-b2ea-1bdd-0baa" name="- S" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ef6-2716-8508-f0e9" name="- T" hidden="false" collective="false" import="true" type="upgrade">
@@ -162,7 +162,7 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="769d-c714-181d-32f2" type="min"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="418d-c4e9-cf36-8a87" name="- WS" hidden="false" collective="false" import="true" type="upgrade">
@@ -170,22 +170,22 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ff4-9a43-e9bd-b4da" type="min"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a96e-c49f-8431-bb70" name="- W" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db9e-119c-2891-c515" name="Experience" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ea3-bbf5-5df5-33aa" name="Gold" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
+        <cost name="gc" typeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3828-a663-432e-f8ca" name="Promoted" hidden="false" collective="false" import="true" type="upgrade">
@@ -193,7 +193,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5653-4e20-b981-6b60" type="max"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac7c-6d84-e54a-66ba" name="Barding" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -209,7 +209,7 @@
         <entryLink id="f7f1-2f1e-48c4-50b8" name="-1 M" hidden="false" collective="false" import="true" targetId="e864-d41b-1034-8eb5" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80.0"/>
+        <cost name="gc" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e539-99d3-7cad-ba45" name="Buckler" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -225,7 +225,7 @@
         <infoLink id="05b3-ff2b-28f3-c4e5" name="Parry" hidden="false" targetId="5ed4-9a5e-61d4-241a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="5.0"/>
+        <cost name="gc" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c6b-8fc9-8bdb-c7b1" name="Gromril Armour" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -238,7 +238,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="150.0"/>
+        <cost name="gc" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9277-6629-bab6-c9fb" name="Heavy Armor" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -251,7 +251,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="gc" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c876-afcd-c2b9-4770" name="Helmet" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -267,7 +267,7 @@
         <infoLink id="daa3-a6b6-55de-d912" name="Avoid stun" hidden="false" targetId="e376-ad51-58a9-9f09" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="gc" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="80bc-e219-7934-5474" name="Ithilmar Armour" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -280,7 +280,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name="gc" typeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="655c-a55a-ccd8-f856" name="Light Armor" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -293,7 +293,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name="gc" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d436-3ae9-dc5c-344c" name="Shield" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -306,7 +306,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="5.0"/>
+        <cost name="gc" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2234-08c5-a2d4-54c6" name="Axe" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -330,7 +330,7 @@
             <infoLink id="4a7f-94f6-8136-3c9d" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4888-d7dd-84a8-ae63" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -344,12 +344,12 @@
             <infoLink id="9616-a4cf-115c-8386" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="5.0"/>
+        <cost name="gc" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b94-fe91-4a0a-1660" name="Ball and Chain" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -393,7 +393,7 @@ ignores the special rules for Animosity.
         </rule>
       </rules>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="935f-6e0a-5c6f-29ed" name="Club,Mace, Hammer" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -420,7 +420,7 @@ ignores the special rules for Animosity.
             <infoLink id="0492-d877-390e-49be" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f290-b462-89f6-30ea" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -434,12 +434,12 @@ ignores the special rules for Animosity.
             <infoLink id="c3ed-1462-6c9a-1a61" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="3.0"/>
+        <cost name="gc" typeId="points" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ab8-c64c-2553-0f4b" name="Dagger" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -466,7 +466,7 @@ ignores the special rules for Animosity.
             <infoLink id="51af-e31f-6a2f-6038" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3b3d-961c-c5e7-31ce" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -480,12 +480,12 @@ ignores the special rules for Animosity.
             <infoLink id="c6f8-c9e0-967a-db4e" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
+        <cost name="gc" typeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bab8-3469-92c0-d6e4" name="Free Dagger" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -504,7 +504,7 @@ ignores the special rules for Animosity.
         <infoLink id="48d9-d819-fc19-8aec" name="+1 Enemy armour save" hidden="false" targetId="2ed3-6ee5-da77-f549" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc91-996e-9405-85e9" name="Double Handed Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -532,7 +532,7 @@ ignores the special rules for Animosity.
             <infoLink id="947a-5d25-dd12-1586" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="123b-d11f-ed22-1639" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -546,12 +546,12 @@ ignores the special rules for Animosity.
             <infoLink id="469b-5762-65ac-1fd2" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="15.0"/>
+        <cost name="gc" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="042b-b835-d15c-946c" name="Fist" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -567,7 +567,7 @@ ignores the special rules for Animosity.
         <infoLink id="8c72-038b-c72e-ea0e" name="+1 Enemy armour save" hidden="false" targetId="2ed3-6ee5-da77-f549" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="gc" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5d57-784c-bbdd-094c" name="Flail" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -595,7 +595,7 @@ ignores the special rules for Animosity.
             <infoLink id="77b4-cff2-1c3f-aca5" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3c96-cef4-0d69-1e88" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -609,12 +609,12 @@ ignores the special rules for Animosity.
             <infoLink id="2c2d-4044-fe42-5abb" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="15.0"/>
+        <cost name="gc" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="188b-6c92-d5a4-c1f3" name="Halberd" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -641,7 +641,7 @@ ignores the special rules for Animosity.
             <infoLink id="d6ee-e839-e1cc-cce9" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dfdd-25d5-f2cf-1390" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -655,12 +655,12 @@ ignores the special rules for Animosity.
             <infoLink id="c6ae-dae3-abe3-b808" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="gc" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a2c-e9ac-46bf-4018" name="Lance" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -688,7 +688,7 @@ ignores the special rules for Animosity.
             <infoLink id="e698-1037-85ca-9dbb" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="204c-32f3-8a17-53b1" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -702,12 +702,12 @@ ignores the special rules for Animosity.
             <infoLink id="a3f4-387d-2e21-df2b" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="gc" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd17-d555-e617-923e" name="Morning Star" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -735,7 +735,7 @@ ignores the special rules for Animosity.
             <infoLink id="499a-6b65-9d57-f0c1" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3497-2afb-ed47-10fe" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -749,12 +749,12 @@ ignores the special rules for Animosity.
             <infoLink id="1ed5-5172-99c2-17dd" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="15.0"/>
+        <cost name="gc" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6ae-fde5-878e-873a" name="Spear" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -783,7 +783,7 @@ ignores the special rules for Animosity.
             <infoLink id="563a-cde3-2fcc-7f9e" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7c7b-1b66-4f63-a8e2" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -797,12 +797,12 @@ ignores the special rules for Animosity.
             <infoLink id="b879-c801-facf-4a95" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="gc" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54d4-5dbf-fb3f-dd38" name="Sword" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -829,7 +829,7 @@ ignores the special rules for Animosity.
             <infoLink id="96e9-e0c7-f2c8-9594" name="Gromril weapon" hidden="false" targetId="c310-90df-39d2-fbc2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="860b-c93c-1981-f028" name="Ithilmar weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -843,12 +843,12 @@ ignores the special rules for Animosity.
             <infoLink id="a91b-412c-1e74-5afb" name="Ithilmar weapon" hidden="false" targetId="041c-2701-cdf7-84cb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="gc" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8697-546d-18a0-4fd0" name="Blunderbuss" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -862,7 +862,7 @@ ignores the special rules for Animosity.
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="gc" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87eb-7333-9301-f8c2" name="Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -876,7 +876,7 @@ ignores the special rules for Animosity.
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="gc" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a8d3-b45e-54bf-9e35" name="Cross Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -890,7 +890,7 @@ ignores the special rules for Animosity.
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="25.0"/>
+        <cost name="gc" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="12b1-6ad0-4a35-80c2" name="Crossbow Pistol" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -904,7 +904,7 @@ ignores the special rules for Animosity.
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="35.0"/>
+        <cost name="gc" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd8b-33b6-603b-6d15" name="Dueling Pistol" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -932,7 +932,7 @@ a duelling pistol have a +1 bonus to hit.</description>
         <infoLink id="66b5-faf8-b343-e15a" name="Prepare shot" hidden="false" targetId="8ed4-2359-9606-2413" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="gc" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c66-9f78-7e56-1e1b" name="Elf Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -949,7 +949,7 @@ a duelling pistol have a +1 bonus to hit.</description>
         <entryLink id="4f4c-881c-8191-739c" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="35.0"/>
+        <cost name="gc" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d34e-51f1-9528-f078" name="Hand Gun" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -968,12 +968,12 @@ a duelling pistol have a +1 bonus to hit.</description>
         <infoLink id="3030-60af-b35c-3297" name="Prepare shot" hidden="false" targetId="8ed4-2359-9606-2413" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="35.0"/>
+        <cost name="gc" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8957-bb5f-fdab-c4d1" name="Hunting Rifle" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="200.0"/>
+        <cost name="gc" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0124-e1dd-4a63-60c9" name="Long Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -987,7 +987,7 @@ a duelling pistol have a +1 bonus to hit.</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="15.0"/>
+        <cost name="gc" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="34e4-5696-301a-48cb" name="Pistol" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -1007,7 +1007,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         </rule>
       </rules>
       <costs>
-        <cost name="pts" typeId="points" value="15.0"/>
+        <cost name="gc" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7643-c34d-554b-a0e8" name="Repeater Crossbow" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -1021,7 +1021,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="gc" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3623-4a7c-e6e9-e2af" name="Short Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -1035,7 +1035,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="5.0"/>
+        <cost name="gc" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc17-e0a4-cc3c-6a5a" name="Sling" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -1049,7 +1049,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
+        <cost name="gc" typeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d5d-0f01-aa16-4cb3" name="Throwing Knives/stars" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -1063,7 +1063,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="15.0"/>
+        <cost name="gc" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1090,7 +1090,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0b0d-ff15-81d8-b5bf" name="Battle Tongue" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1103,7 +1103,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f382-b9e5-c5fc-eb13" name="Streetwise" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1116,7 +1116,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6a19-aec9-9f9e-c4e1" name="Haggle" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1129,7 +1129,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="27d3-495b-76b8-25a4" name="Arcane Lore" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1142,7 +1142,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3f47-f580-14a1-3147" name="Wyrdstone Hunter" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1156,7 +1156,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="900a-3df2-fc8a-b432" name="Warrior Wizard" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1169,7 +1169,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1264,7 +1264,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b3de-78e0-ebcb-2f7f" name="Strike To Inure" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1277,7 +1277,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="db70-fdb2-0317-c397" name="Expert Swordsman" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1291,7 +1291,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b5f4-ee4e-4772-63a8" name="Web Of Steel" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1304,7 +1304,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d250-9b5d-afca-2ff8" name="Weapons Traning" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1317,7 +1317,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7aa2-d889-30e6-86c3" name="Combat Master" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1330,7 +1330,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1406,7 +1406,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="38fe-c30e-a5df-88c7" name="Severe Arm Wound" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1416,7 +1416,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="00c5-7590-7ef2-daf6" name="Maddness: Stupidity" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1424,7 +1424,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             <infoLink id="20a4-e533-2f32-1a04" name="Stupidity" hidden="false" targetId="fd16-3039-3db6-6f96" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="21d3-eb17-60f3-d2f6" name="Madness: Frenzy" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1432,7 +1432,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             <infoLink id="025c-b132-ba86-a740" name="Frenzy" hidden="false" targetId="c64c-99da-3736-e650" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="93a3-78db-9ded-aeaf" name="Chest Wound" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1449,7 +1449,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1ecc-8b5e-ec13-6ebd" name="Blind In one Eye" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1467,7 +1467,7 @@ must retire from the warband.</description>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5d80-4639-7604-6556" name="Old Battle Wound" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1477,7 +1477,7 @@ must retire from the warband.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5838-5d28-c8b4-f4b3" name="Nervous Condition" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1494,7 +1494,7 @@ must retire from the warband.</description>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0c17-2d36-cf45-a97b" name="Hand Injury" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1511,7 +1511,7 @@ must retire from the warband.</description>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e3c5-507d-24b7-b09f" name="Bitter Emity" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1521,7 +1521,7 @@ must retire from the warband.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b9c9-1375-8d1d-b81f" name="Hardened" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1531,7 +1531,7 @@ must retire from the warband.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8b33-57b2-e650-69a2" name="Horrible Scars" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1544,7 +1544,7 @@ must retire from the warband.</description>
             <infoLink id="c898-cf5a-55d2-be15" name="Fear" hidden="false" targetId="f1e7-ba0a-a52e-19c6" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cb70-afac-0863-7457" name="Smashed Leg" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1554,7 +1554,7 @@ must retire from the warband.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1581,7 +1581,7 @@ must retire from the warband.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6c4a-70b9-087e-65d9" name="Nimble" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1594,7 +1594,7 @@ must retire from the warband.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2068-abb4-8379-e9de" name="Weapons Expert" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1607,7 +1607,7 @@ must retire from the warband.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="148d-0b21-d899-5e5d" name="Eagle Eyes" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1620,7 +1620,7 @@ must retire from the warband.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5430-8016-804c-2dd1" name="Pistolier" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1633,7 +1633,7 @@ must retire from the warband.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3b98-ec06-af96-ca03" name="Quick Shot" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1647,7 +1647,7 @@ with a bow or crossbow (but not a crossbow pistol).</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f903-5b4f-ddbf-e0e0" name="Hunter" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1660,7 +1660,7 @@ with a bow or crossbow (but not a crossbow pistol).</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e74c-acbb-0f19-d67b" name="Knife Fighter" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1673,7 +1673,7 @@ with a bow or crossbow (but not a crossbow pistol).</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1701,7 +1701,7 @@ Movement, and does not need to make Initiative tests when doing so</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1b74-9687-7e32-317c" name="Dodge." page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1714,7 +1714,7 @@ Movement, and does not need to make Initiative tests when doing so</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="98b7-38cb-773b-1bf3" name="Jump Up" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1728,7 +1728,7 @@ wearing a helmet or because he has the No Pain special rule.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8fc1-e7a1-61eb-a840" name="Lightning Reflexes" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1742,7 +1742,7 @@ charging), the order of attack between the charger(s) and the warrior with this 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e914-adf7-9cf5-5b75" name="Acrobat." page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1755,7 +1755,7 @@ charging), the order of attack between the charger(s) and the warrior with this 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="823e-b1b8-6ef2-e5ea" name="Leap" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1768,7 +1768,7 @@ charging), the order of attack between the charger(s) and the warrior with this 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2a7a-5e40-0856-2157" name="Sprint." page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1781,7 +1781,7 @@ charging), the order of attack between the charger(s) and the warrior with this 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1809,7 +1809,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="201d-0383-b222-12ed" name="Pit Fighter" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1822,7 +1822,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="15fa-1e6c-fbd3-4df8" name="Resilient" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1835,7 +1835,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="94d5-befc-ff7d-69be" name="Fearsome" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1848,7 +1848,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e4a0-6d35-5d33-6480" name="Strongman" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1861,7 +1861,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2364-0a54-91ee-a565" name="Unstoppable Charge" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1874,7 +1874,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1901,7 +1901,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <entryLink id="8f6b-0bb6-e037-3811" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6e65-fe51-502a-e1e4" name="Blessed Water" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1914,7 +1914,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <entryLink id="26a2-52ed-d72e-fb2d" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d6c2-ddcc-9f04-b875" name="Bugman&apos;s Ale" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1927,7 +1927,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <entryLink id="496f-589c-d0ba-bf6b" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8d83-2ac5-97cf-81e5" name="Cathayan Silk Clothes" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1940,7 +1940,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <entryLink id="0812-a6fe-d4cd-0b36" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="31d5-0170-b99b-7fa8" name="Crimson Shade" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1956,7 +1956,7 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="64c9-c160-28a7-8957" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5772-2d69-703b-98b7" name="Dark Venom" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1969,7 +1969,7 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="95ab-54ba-0ba2-43a0" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="gc" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0772-0501-3a24-05b7" name="Elven Cloak" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1982,7 +1982,7 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="cde3-2c4d-c592-0737" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="100.0"/>
+            <cost name="gc" typeId="points" value="100.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d4bf-a525-25b2-4ec1" name="Garlic" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -1992,7 +1992,7 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="1.0"/>
+            <cost name="gc" typeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a719-378a-0e84-24d8" name="Halfling Cook Book" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2005,7 +2005,7 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="b459-fa53-a76c-f433" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="gc" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9ab0-4b18-7626-c3cc" name="Healing Herbs" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2018,7 +2018,7 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="bc1c-f465-d3a3-d02c" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="gc" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5bc5-82c5-34df-5bce" name="(un)Holy Relic" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2031,7 +2031,7 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="0dfd-2506-c1c2-bc80" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="05df-cac9-621c-320d" name="Holy Tome" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2044,7 +2044,7 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="d9d0-93bd-0b54-59a1" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0c44-cebb-5079-833d" name="Horse" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2070,7 +2070,7 @@ You may mount one of your Heroes on a horse  in the coming battles. Horses  can 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="gc" typeId="points" value="40.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="521f-7a66-29f7-40fb" name="Hunting Arrows" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2083,7 +2083,7 @@ You may mount one of your Heroes on a horse  in the coming battles. Horses  can 
             <entryLink id="a221-c489-dc5a-2b4a" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5f6a-25c5-71f5-67c1" name="Lantern" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2093,7 +2093,7 @@ You may mount one of your Heroes on a horse  in the coming battles. Horses  can 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="gc" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6a4e-3454-69d2-13f6" name="Lucky Charm" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2103,7 +2103,7 @@ You may mount one of your Heroes on a horse  in the coming battles. Horses  can 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="gc" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="de27-d134-4759-32e0" name="Mandrake Root" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2118,7 +2118,7 @@ Side effects: Mandrake Root is highly poisonous. At the end of the battle, roll 
             <entryLink id="4bb0-c1d1-b292-9748" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="gc" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="85aa-d030-2511-d267" name="Mordhiem Map" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2145,7 +2145,7 @@ on the Exploration chart as long as the Hero who possesses this map was not take
             <entryLink id="baac-cd4f-744b-82b3" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5a78-460f-5b2e-1b8e" name="Net" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2156,7 +2156,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="gc" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a9ee-c3ff-b4b3-ff06" name="Rope And Hook" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2166,7 +2166,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="gc" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="15f3-058a-6fb5-d0ff" name="Superior Black Powder" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2176,7 +2176,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="gc" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2f22-89ee-adfb-8cd4" name="Tome Of Magic" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2189,7 +2189,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
             <entryLink id="be93-ef51-119a-03f0" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cdc1-642a-1e34-5e88" name="Warhorse" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2215,7 +2215,7 @@ You may mount one of your Heroes on a warhorse in the coming battles. Warhorses 
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="80.0"/>
+            <cost name="gc" typeId="points" value="80.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c707-b885-cf3f-1d9e" name="Wardog" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2244,7 +2244,7 @@ Wardogs count towards the maximum number of warriors allowed in your warband.</d
             <entryLink id="e5d7-4e82-8158-65eb" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ccb9-2613-98ea-1686" name="Squigg Prodder" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2254,7 +2254,7 @@ Wardogs count towards the maximum number of warriors allowed in your warband.</d
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="gc" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fc33-fa8d-be1b-36d5" name="Mad Cap Mushrooms" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2270,7 +2270,7 @@ Side effect: After the battle, roll a D6. On a roll of a 1 the model becomes per
             <entryLink id="f225-75b2-1db0-6395" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="32ed-f532-3919-2b43" name="Tears of Shallaya" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2283,7 +2283,7 @@ Side effect: After the battle, roll a D6. On a roll of a 1 the model becomes per
             <entryLink id="e83d-f261-adac-8cfb" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

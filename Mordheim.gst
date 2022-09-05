@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="9481a749-7900-614b-1695-bdc2899069c1" name="Mordheim" revision="16" battleScribeVersion="2.03" authorName="James" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <publications>
+    <publication id="b0af-fa47-674e-c1b2" name="Core rules" shortName="Mordheim" publisher="Mordheim (Core Rules)" publicationDate="1999" publisherUrl="https://broheim.net/downloads/rules/Mordheim%20Core%20Rules%20Printable%20Cover.pdf"/>
+  </publications>
   <costTypes>
     <costType id="points" name="gc" defaultCostLimit="0.0" hidden="false"/>
     <costType id="warband-rating" name="pts" defaultCostLimit="-1.0" hidden="false"/>
@@ -106,67 +109,67 @@
     <infoLink id="3d08-9f3e-b012-c419" name="EXP Adancement" hidden="false" targetId="942a-cf0f-028c-ae1c" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="5c7e-9a15-e6a2-3dde" name="+ A" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5c7e-9a15-e6a2-3dde" name="+ A" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="94b2-1727-ed67-2ebd" name="+ BS" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="94b2-1727-ed67-2ebd" name="+ BS" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c0e-5b4f-d513-9819" name="+ I" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9c0e-5b4f-d513-9819" name="+ I" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f22-ccc1-95a6-f2d1" name="+ LD" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5f22-ccc1-95a6-f2d1" name="+ LD" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8f0-2d81-50b7-00ae" name="+ M" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f8f0-2d81-50b7-00ae" name="+ M" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8358-b940-6f98-6e11" name="+ S" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8358-b940-6f98-6e11" name="+ S" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="60d2-e14f-bdf9-9d4b" name="+ T" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="60d2-e14f-bdf9-9d4b" name="+ T" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e859-5c9b-f27b-73be" name="+ W" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e859-5c9b-f27b-73be" name="+ W" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="893f-8a30-c85d-e995" name="+ WS" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="893f-8a30-c85d-e995" name="+ WS" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8342-094e-8510-2b57" name="- A" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8342-094e-8510-2b57" name="- A" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b46c-26d5-a8d0-86b9" name="- BS" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b46c-26d5-a8d0-86b9" name="- BS" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e4f0-6df9-914e-a1f1" type="min"/>
       </constraints>
@@ -175,7 +178,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5bcf-1538-f631-7cb7" name="- I" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5bcf-1538-f631-7cb7" name="- I" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aa3e-8afe-5ba5-ee5e" type="min"/>
       </constraints>
@@ -184,13 +187,13 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2dc-5621-c08e-e789" name="- LD" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f2dc-5621-c08e-e789" name="- LD" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e864-d41b-1034-8eb5" name="- M" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e864-d41b-1034-8eb5" name="- M" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1ab-8119-1778-b088" type="min"/>
       </constraints>
@@ -199,13 +202,13 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d87-b2ea-1bdd-0baa" name="- S" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6d87-b2ea-1bdd-0baa" name="- S" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ef6-2716-8508-f0e9" name="- T" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0ef6-2716-8508-f0e9" name="- T" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="769d-c714-181d-32f2" type="min"/>
       </constraints>
@@ -214,7 +217,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="418d-c4e9-cf36-8a87" name="- WS" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="418d-c4e9-cf36-8a87" name="- WS" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ff4-9a43-e9bd-b4da" type="min"/>
       </constraints>
@@ -223,19 +226,19 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a96e-c49f-8431-bb70" name="- W" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a96e-c49f-8431-bb70" name="- W" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db9e-119c-2891-c515" name="Experience" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="db9e-119c-2891-c515" name="Experience" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ea3-bbf5-5df5-33aa" name="Gold" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="8ea3-bbf5-5df5-33aa" name="Gold" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="true" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
         <cost name="gc" typeId="points" value="1.0"/>
@@ -250,7 +253,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac7c-6d84-e54a-66ba" name="Barding" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="ac7c-6d84-e54a-66ba" name="Barding" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="3502-ba0d-4fc6-1be8" name="Barding" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -267,7 +270,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e539-99d3-7cad-ba45" name="Buckler" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="e539-99d3-7cad-ba45" name="Buckler" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="9d44-a074-c5c1-771f" name="Buckler" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -284,7 +287,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c6b-8fc9-8bdb-c7b1" name="Gromril Armour" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="6c6b-8fc9-8bdb-c7b1" name="Gromril Armour" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="930c-dd3e-4846-2cf3" name="Gromril Armour" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -298,7 +301,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9277-6629-bab6-c9fb" name="Heavy Armor" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="9277-6629-bab6-c9fb" name="Heavy Armor" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="2ebf-9102-e2d0-4ce9" name="Heavy Armor" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -312,7 +315,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c876-afcd-c2b9-4770" name="Helmet" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="c876-afcd-c2b9-4770" name="Helmet" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="c64f-0dc8-6b9e-43f3" name="Helmet" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -329,7 +332,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="80bc-e219-7934-5474" name="Ithilmar Armour" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="80bc-e219-7934-5474" name="Ithilmar Armour" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="1f4f-0ccf-808b-4554" name="Ithilmar Armour" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -343,7 +346,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="655c-a55a-ccd8-f856" name="Light Armor" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="655c-a55a-ccd8-f856" name="Light Armor" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="4609-3b1e-d5a1-8b12" name="Light Armor" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -357,7 +360,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d436-3ae9-dc5c-344c" name="Shield" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="d436-3ae9-dc5c-344c" name="Shield" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="a0f2-abea-1421-70b7" name="Shield" page="0" hidden="false" typeId="94239014-ea28-23eb-4142-f492dc4caf17" typeName="Armor">
           <characteristics>
@@ -371,7 +374,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2234-08c5-a2d4-54c6" name="Axe" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="2234-08c5-a2d4-54c6" name="Axe" publicationId="b0af-fa47-674e-c1b2" page="25" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="f6c2-9ada-0078-57fa" name="Axe" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -417,7 +420,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3b94-fe91-4a0a-1660" name="Ball and Chain" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="3b94-fe91-4a0a-1660" name="Ball and Chain" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="5efa-e260-8631-6834" name="Ball and Chain" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -462,7 +465,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="935f-6e0a-5c6f-29ed" name="Club,Mace, Hammer" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="935f-6e0a-5c6f-29ed" name="Club,Mace, Hammer" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="fb94-7386-8799-705d" name="Club,Mace, Hammer" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -511,7 +514,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9ab8-c64c-2553-0f4b" name="Dagger" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="9ab8-c64c-2553-0f4b" name="Dagger" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="a30d-8858-b3c9-72e3" name="Dagger" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -575,7 +578,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bab8-3469-92c0-d6e4" name="Free Dagger" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="bab8-3469-92c0-d6e4" name="Free Dagger" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f9e-036d-a81b-8a9b" type="max"/>
       </constraints>
@@ -595,7 +598,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cc91-996e-9405-85e9" name="Double Handed Weapon" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="cc91-996e-9405-85e9" name="Double Handed Weapon" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="75ae-9b71-f51e-41ef" name="Double Handed Weapon" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -645,7 +648,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="042b-b835-d15c-946c" name="Fist" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="042b-b835-d15c-946c" name="Fist" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="3221-5c23-cc05-4bda" name="Fist" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -662,7 +665,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d57-784c-bbdd-094c" name="Flail" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="5d57-784c-bbdd-094c" name="Flail" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="9068-dc00-c4ae-8071" name="Flail" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -712,7 +715,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="188b-6c92-d5a4-c1f3" name="Halberd" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="188b-6c92-d5a4-c1f3" name="Halberd" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="9466-ab7d-1a9b-e493" name="Halberd" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -761,7 +764,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3a2c-e9ac-46bf-4018" name="Lance" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="3a2c-e9ac-46bf-4018" name="Lance" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="9aa9-ded4-b9b6-68f5" name="Lance" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -811,7 +814,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dd17-d555-e617-923e" name="Morning Star" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="dd17-d555-e617-923e" name="Morning Star" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="a134-329b-ef4a-52d4" name="Morning Star" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -861,7 +864,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6ae-fde5-878e-873a" name="Spear" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="d6ae-fde5-878e-873a" name="Spear" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="71e4-9c43-6f1b-5a6d" name="Spear" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -912,7 +915,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="54d4-5dbf-fb3f-dd38" name="Sword" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="54d4-5dbf-fb3f-dd38" name="Sword" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="7e21-08b6-4ecb-f747" name="Sword" page="0" hidden="false" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon">
           <characteristics>
@@ -976,7 +979,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8697-546d-18a0-4fd0" name="Blunderbuss" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="8697-546d-18a0-4fd0" name="Blunderbuss" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="7de9-fe02-b4b8-bd6d" name="Blunderbuss" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -991,7 +994,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="87eb-7333-9301-f8c2" name="Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="87eb-7333-9301-f8c2" name="Bow" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="803f-4c70-d1ba-2d2c" name="Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1006,7 +1009,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8d3-b45e-54bf-9e35" name="Cross Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="a8d3-b45e-54bf-9e35" name="Cross Bow" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="7b14-ec6e-32cb-3c7c" name="Cross Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1021,7 +1024,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="12b1-6ad0-4a35-80c2" name="Crossbow Pistol" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="12b1-6ad0-4a35-80c2" name="Crossbow Pistol" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="1202-c209-78f6-22ab" name="Crossbow Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1036,7 +1039,7 @@ ignores the special rules for Animosity.
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd8b-33b6-603b-6d15" name="Dueling Pistol" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="bd8b-33b6-603b-6d15" name="Dueling Pistol" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="ae00-fad6-3675-2344" name="Dueling Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1065,7 +1068,7 @@ a duelling pistol have a +1 bonus to hit.</description>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c66-9f78-7e56-1e1b" name="Elf Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="0c66-9f78-7e56-1e1b" name="Elf Bow" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="bd42-70e6-36d5-7204" name="Elf Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1083,7 +1086,7 @@ a duelling pistol have a +1 bonus to hit.</description>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d34e-51f1-9528-f078" name="Hand Gun" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="d34e-51f1-9528-f078" name="Hand Gun" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="7146-dafb-a7d7-a93a" name="Hand Gun" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1103,13 +1106,13 @@ a duelling pistol have a +1 bonus to hit.</description>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8957-bb5f-fdab-c4d1" name="Hunting Rifle" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="8957-bb5f-fdab-c4d1" name="Hunting Rifle" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="200.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0124-e1dd-4a63-60c9" name="Long Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="0124-e1dd-4a63-60c9" name="Long Bow" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="8028-9162-0864-3e6d" name="Long Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1124,7 +1127,7 @@ a duelling pistol have a +1 bonus to hit.</description>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="34e4-5696-301a-48cb" name="Pistol" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="34e4-5696-301a-48cb" name="Pistol" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="36ef-6de5-406d-442b" name="Pistol" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1145,7 +1148,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7643-c34d-554b-a0e8" name="Repeater Crossbow" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="7643-c34d-554b-a0e8" name="Repeater Crossbow" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="ff1f-306e-2247-10b9" name="Repeater Crossbow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1160,7 +1163,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3623-4a7c-e6e9-e2af" name="Short Bow" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="3623-4a7c-e6e9-e2af" name="Short Bow" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="1d73-2872-94cd-7d77" name="Short Bow" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1175,7 +1178,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc17-e0a4-cc3c-6a5a" name="Sling" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="bc17-e0a4-cc3c-6a5a" name="Sling" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="f4ac-7126-532b-a636" name="Sling" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1190,7 +1193,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d5d-0f01-aa16-4cb3" name="Throwing Knives/stars" page="0" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="6d5d-0f01-aa16-4cb3" name="Throwing Knives/stars" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="5fd8-4045-095f-e92e" name="Throwing Knives/stars" page="0" hidden="false" typeId="c4b0233c-e5d1-2b41-3446-45a745fbbbec" typeName="Ranged Weapon">
           <characteristics>
@@ -1219,7 +1222,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6435-dd1a-fba7-400d" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="976c-5d97-517d-8e87" name="Sorcery" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="976c-5d97-517d-8e87" name="Sorcery" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d9e-08c0-5d27-8033" type="max"/>
           </constraints>
@@ -1233,7 +1236,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0b0d-ff15-81d8-b5bf" name="Battle Tongue" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0b0d-ff15-81d8-b5bf" name="Battle Tongue" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="79b6-9173-afcc-4b0e" type="max"/>
           </constraints>
@@ -1247,7 +1250,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f382-b9e5-c5fc-eb13" name="Streetwise" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f382-b9e5-c5fc-eb13" name="Streetwise" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fcac-a64b-416a-a197" type="max"/>
           </constraints>
@@ -1261,7 +1264,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6a19-aec9-9f9e-c4e1" name="Haggle" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6a19-aec9-9f9e-c4e1" name="Haggle" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5989-6a56-d592-73fe" type="max"/>
           </constraints>
@@ -1275,7 +1278,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="27d3-495b-76b8-25a4" name="Arcane Lore" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="27d3-495b-76b8-25a4" name="Arcane Lore" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6650-f493-6335-99f5" type="max"/>
           </constraints>
@@ -1289,7 +1292,7 @@ a -2 save modifier, regardless of the firer’s Strength.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3f47-f580-14a1-3147" name="Wyrdstone Hunter" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3f47-f580-14a1-3147" name="Wyrdstone Hunter" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f41-3d9a-9112-289b" type="max"/>
           </constraints>
@@ -1304,7 +1307,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="900a-3df2-fc8a-b432" name="Warrior Wizard" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="900a-3df2-fc8a-b432" name="Warrior Wizard" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eaed-cbe5-b416-86e4" type="max"/>
           </constraints>
@@ -1400,7 +1403,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="88d4-eb0c-f8df-29b5" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="067b-3402-419e-7f96" name="Step Aside" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="067b-3402-419e-7f96" name="Step Aside" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5cf5-f4ad-bb7e-8d38" type="max"/>
           </constraints>
@@ -1414,7 +1417,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b3de-78e0-ebcb-2f7f" name="Strike To Inure" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b3de-78e0-ebcb-2f7f" name="Strike To Inure" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c09e-9fa5-eb6d-4712" type="max"/>
           </constraints>
@@ -1428,7 +1431,7 @@ phase you may re-roll one dice when rolling on the Exploration chart. The second
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="db70-fdb2-0317-c397" name="Expert Swordsman" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="db70-fdb2-0317-c397" name="Expert Swordsman" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8b7a-2193-5347-6edd" type="max"/>
           </constraints>
@@ -1443,7 +1446,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b5f4-ee4e-4772-63a8" name="Web Of Steel" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b5f4-ee4e-4772-63a8" name="Web Of Steel" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4155-6645-4a0f-3f02" type="max"/>
           </constraints>
@@ -1457,7 +1460,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d250-9b5d-afca-2ff8" name="Weapons Traning" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d250-9b5d-afca-2ff8" name="Weapons Traning" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5342-e295-6a31-4d9a" type="max"/>
           </constraints>
@@ -1471,7 +1474,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7aa2-d889-30e6-86c3" name="Combat Master" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7aa2-d889-30e6-86c3" name="Combat Master" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d4ce-2e8b-5312-f122" type="max"/>
           </constraints>
@@ -1544,7 +1547,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4994-a203-73dd-670a" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="c8e6-0da4-7e41-25e5" name="Leg Wound" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c8e6-0da4-7e41-25e5" name="Leg Wound" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="e8d5-e334-7b42-d330" name="Leg Wound" page="0" hidden="false">
               <description>The warrior’s leg is broken. He suffers a -1 Movement characteristic penalty from now on.</description>
@@ -1562,7 +1565,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="38fe-c30e-a5df-88c7" name="Severe Arm Wound" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="38fe-c30e-a5df-88c7" name="Severe Arm Wound" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="3f49-6d98-73cc-d06d" name="Severe Arm Wound" page="0" hidden="false">
               <description>Severe arm wound. The arm must be amputated. The warrior may only use a single onehanded weapon from now on</description>
@@ -1573,7 +1576,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="00c5-7590-7ef2-daf6" name="Maddness: Stupidity" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="00c5-7590-7ef2-daf6" name="Maddness: Stupidity" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="20a4-e533-2f32-1a04" name="Stupidity" hidden="false" targetId="fd16-3039-3db6-6f96" type="rule"/>
           </infoLinks>
@@ -1582,7 +1585,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="21d3-eb17-60f3-d2f6" name="Madness: Frenzy" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="21d3-eb17-60f3-d2f6" name="Madness: Frenzy" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="025c-b132-ba86-a740" name="Frenzy" hidden="false" targetId="c64c-99da-3736-e650" type="rule"/>
           </infoLinks>
@@ -1591,7 +1594,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="93a3-78db-9ded-aeaf" name="Chest Wound" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="93a3-78db-9ded-aeaf" name="Chest Wound" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="e3c9-cfd6-af2c-67e5" name="Chest Wound" page="0" hidden="false">
               <description>The warrior has been badly wounded in the chest. He recovers but is weakened by the injury so his Toughness is reduced by 1</description>
@@ -1609,7 +1612,7 @@ only applies when they are armed with normal swords or weeping blades, and not w
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1ecc-8b5e-ec13-6ebd" name="Blind In one Eye" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1ecc-8b5e-ec13-6ebd" name="Blind In one Eye" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="e6dc-057c-dc18-00ef" name="Blind In one Eye" page="0" hidden="false">
               <description>A character that loses an eye has his Ballistic Skill reduced by -1. If the warrior is subsequently blinded in his remaining good eye he
@@ -1628,7 +1631,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5d80-4639-7604-6556" name="Old Battle Wound" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5d80-4639-7604-6556" name="Old Battle Wound" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="66b8-a001-b2e8-80dd" name="Old Battle Wound" page="0" hidden="false">
               <description>The warrior survives, but his wound will prevent him from fighting if you roll a 1 on a D6 at the start of any battle. Roll at the start of each battle from now on.</description>
@@ -1639,7 +1642,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5838-5d28-c8b4-f4b3" name="Nervous Condition" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5838-5d28-c8b4-f4b3" name="Nervous Condition" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="b31f-9ce8-1cd6-e3ca" name="Nervous Condition" page="0" hidden="false">
               <description>The warrior’s nervous system has been damaged. His Initiative is permanently reduced by -1.</description>
@@ -1657,7 +1660,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0c17-2d36-cf45-a97b" name="Hand Injury" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0c17-2d36-cf45-a97b" name="Hand Injury" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="8d5a-1f75-ce41-9b29" name="Hand Injury" page="0" hidden="false">
               <description>The warrior’s hand is badly injured. His Weapon Skill is permanently reduced by -1.</description>
@@ -1675,7 +1678,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e3c5-507d-24b7-b09f" name="Bitter Emity" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e3c5-507d-24b7-b09f" name="Bitter Emity" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="d067-c14e-a3b5-e6ff" name="Bitter Emity" page="0" hidden="false">
               <description>Warrior Hates Somone/Group</description>
@@ -1686,7 +1689,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b9c9-1375-8d1d-b81f" name="Hardened" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b9c9-1375-8d1d-b81f" name="Hardened" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="c33a-2e1f-5dde-7cd2" name="Hardened" page="0" hidden="false">
               <description>The warrior survives and becomes inured to the horrors of Mordheim. From now on he is immune to fear.</description>
@@ -1697,7 +1700,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8b33-57b2-e650-69a2" name="Horrible Scars" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8b33-57b2-e650-69a2" name="Horrible Scars" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="c6b2-b69b-0df3-f071" name="Horrible Scars" page="0" hidden="false">
               <description>The warrior causes fear from now on.</description>
@@ -1711,7 +1714,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cb70-afac-0863-7457" name="Smashed Leg" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cb70-afac-0863-7457" name="Smashed Leg" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="3040-c30d-9ed9-20a3" name="Smashed Leg" page="0" hidden="false">
               <description>The warrior may not run any more but he may still charge.</description>
@@ -1736,7 +1739,7 @@ must retire from the warband.</description>
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ac67-30da-055c-9152" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="084f-22cc-de90-aba4" name="Trick Shooter" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="084f-22cc-de90-aba4" name="Trick Shooter" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d5c8-b492-15b8-46fe" type="max"/>
           </constraints>
@@ -1750,7 +1753,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6c4a-70b9-087e-65d9" name="Nimble" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6c4a-70b9-087e-65d9" name="Nimble" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="20bb-3d02-769f-b046" type="max"/>
           </constraints>
@@ -1764,7 +1767,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2068-abb4-8379-e9de" name="Weapons Expert" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2068-abb4-8379-e9de" name="Weapons Expert" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="79f1-c142-50e5-ebeb" type="max"/>
           </constraints>
@@ -1778,7 +1781,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="148d-0b21-d899-5e5d" name="Eagle Eyes" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="148d-0b21-d899-5e5d" name="Eagle Eyes" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="191a-e9d4-87e7-33d4" type="max"/>
           </constraints>
@@ -1792,7 +1795,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5430-8016-804c-2dd1" name="Pistolier" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5430-8016-804c-2dd1" name="Pistolier" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="37cd-d55d-898d-c2c4" type="max"/>
           </constraints>
@@ -1806,7 +1809,7 @@ must retire from the warband.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3b98-ec06-af96-ca03" name="Quick Shot" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3b98-ec06-af96-ca03" name="Quick Shot" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa66-4756-20ff-4f59" type="max"/>
           </constraints>
@@ -1821,7 +1824,7 @@ with a bow or crossbow (but not a crossbow pistol).</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f903-5b4f-ddbf-e0e0" name="Hunter" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f903-5b4f-ddbf-e0e0" name="Hunter" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9480-3a7d-912d-6078" type="max"/>
           </constraints>
@@ -1835,7 +1838,7 @@ with a bow or crossbow (but not a crossbow pistol).</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e74c-acbb-0f19-d67b" name="Knife Fighter" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e74c-acbb-0f19-d67b" name="Knife Fighter" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d48-c28d-dab0-9ed7" type="max"/>
           </constraints>
@@ -1863,7 +1866,7 @@ with a bow or crossbow (but not a crossbow pistol).</description>
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="88ba-3861-1eda-2351" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="cb99-390d-ae85-2982" name="Scale Sheer Surfaces" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cb99-390d-ae85-2982" name="Scale Sheer Surfaces" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7230-1ec2-1a5c-3f03" type="max"/>
           </constraints>
@@ -1878,7 +1881,7 @@ Movement, and does not need to make Initiative tests when doing so</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1b74-9687-7e32-317c" name="Dodge." page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1b74-9687-7e32-317c" name="Dodge." publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="03bd-9627-1c67-9795" type="max"/>
           </constraints>
@@ -1892,7 +1895,7 @@ Movement, and does not need to make Initiative tests when doing so</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="98b7-38cb-773b-1bf3" name="Jump Up" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="98b7-38cb-773b-1bf3" name="Jump Up" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba7d-3d0a-b7fb-51a6" type="max"/>
           </constraints>
@@ -1907,7 +1910,7 @@ wearing a helmet or because he has the No Pain special rule.</description>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8fc1-e7a1-61eb-a840" name="Lightning Reflexes" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8fc1-e7a1-61eb-a840" name="Lightning Reflexes" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae8e-9d0f-4aea-f755" type="max"/>
           </constraints>
@@ -1922,7 +1925,7 @@ charging), the order of attack between the charger(s) and the warrior with this 
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e914-adf7-9cf5-5b75" name="Acrobat." page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e914-adf7-9cf5-5b75" name="Acrobat." publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7204-8eaf-67ad-9ddc" type="max"/>
           </constraints>
@@ -1936,7 +1939,7 @@ charging), the order of attack between the charger(s) and the warrior with this 
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="823e-b1b8-6ef2-e5ea" name="Leap" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="823e-b1b8-6ef2-e5ea" name="Leap" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a21e-a0fa-9810-cc73" type="max"/>
           </constraints>
@@ -1950,7 +1953,7 @@ charging), the order of attack between the charger(s) and the warrior with this 
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2a7a-5e40-0856-2157" name="Sprint." page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2a7a-5e40-0856-2157" name="Sprint." publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="83e1-38bb-b98e-3b1d" type="max"/>
           </constraints>
@@ -1978,7 +1981,7 @@ charging), the order of attack between the charger(s) and the warrior with this 
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="87b5-f00b-791a-21e9" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="83fe-ab25-3bcd-8d0d" name="Mighty Blow" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="83fe-ab25-3bcd-8d0d" name="Mighty Blow" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="21e3-f177-d77b-1490" type="max"/>
           </constraints>
@@ -1993,7 +1996,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="201d-0383-b222-12ed" name="Pit Fighter" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="201d-0383-b222-12ed" name="Pit Fighter" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eaff-323a-d05a-71f4" type="max"/>
           </constraints>
@@ -2007,7 +2010,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="15fa-1e6c-fbd3-4df8" name="Resilient" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="15fa-1e6c-fbd3-4df8" name="Resilient" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dd8e-8213-213f-fa2b" type="max"/>
           </constraints>
@@ -2021,7 +2024,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="94d5-befc-ff7d-69be" name="Fearsome" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="94d5-befc-ff7d-69be" name="Fearsome" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8955-7a1c-5196-9835" type="max"/>
           </constraints>
@@ -2035,7 +2038,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e4a0-6d35-5d33-6480" name="Strongman" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e4a0-6d35-5d33-6480" name="Strongman" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4503-cf96-3f95-be53" type="max"/>
           </constraints>
@@ -2049,7 +2052,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2364-0a54-91ee-a565" name="Unstoppable Charge" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2364-0a54-91ee-a565" name="Unstoppable Charge" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="239b-bd83-cf69-9458" type="max"/>
           </constraints>
@@ -2077,7 +2080,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="79c1-508d-5566-3f24" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="48e6-266a-8aea-d82a" name="Black Lotus" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="48e6-266a-8aea-d82a" name="Black Lotus" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="2db7-2ee8-cd7a-8462" name="Black Lotus" page="0" hidden="false">
               <description>A weapon coated with the sap of the Black Lotus will wound its target automatically if you roll a 6 to hit. Note that you can still roll a dice for every wound inflicted in this way. If you roll a 6, you will inflict a critical hit with that roll. If you do not roll a 6, you will cause a normal wound. Take armour saves as normal.</description>
@@ -2087,13 +2090,14 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <entryLink id="8f6b-0bb6-e037-3811" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
+            <cost name="gc" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6e65-fe51-502a-e1e4" name="Blessed Water" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6e65-fe51-502a-e1e4" name="Blessed Water" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="1a45-3840-743d-4021" name="Blessed Water" page="0" hidden="false">
+              <comment></comment>
               <description>A vial of blessed water contains enough liquid for just one use, and has a thrown range of twice the thrower’s Strength in inches. Roll to hit using the model’s BS. No modifiers for range or moving apply. Blessed water causes 1 wound on Undead, Daemon or Possessed models automatically. There is no armour save. Undead or Possessed models may not use blessed water.</description>
             </rule>
           </rules>
@@ -2101,11 +2105,11 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <entryLink id="26a2-52ed-d72e-fb2d" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
+            <cost name="gc" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d6c2-ddcc-9f04-b875" name="Bugman&apos;s Ale" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d6c2-ddcc-9f04-b875" name="Bugman&apos;s Ale" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="674d-7a02-dfc7-1880" name="Bugman&apos;s Ale" page="0" hidden="false">
               <description>A warband that drinks a barrel of Bugman’s before a battle will be immune to fear for the whole of the battle. Elves may not drink Bugman’s ale as they are far too delicate to cope with its effects. There is only enough ale to supply the warband for one battle.</description>
@@ -2115,11 +2119,11 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <entryLink id="496f-589c-d0ba-bf6b" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
+            <cost name="gc" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8d83-2ac5-97cf-81e5" name="Cathayan Silk Clothes" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8d83-2ac5-97cf-81e5" name="Cathayan Silk Clothes" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="3a20-f767-c545-60a2" name="Cathayan Silk Clothes" page="0" hidden="false">
               <description>Any Mercenary warband whose leader is wearing silk clothes may re-roll the first failed Rout test. However, after each battle in which the leader is taken out of action, roll a D6. On a roll of 1-3 the clothes are  ruined and must be discarded.</description>
@@ -2129,11 +2133,11 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
             <entryLink id="0812-a6fe-d4cd-0b36" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
+            <cost name="gc" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="31d5-0170-b99b-7fa8" name="Crimson Shade" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="31d5-0170-b99b-7fa8" name="Crimson Shade" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="86c8-eb19-f25d-f80c" name="Crimson Shade" page="0" hidden="false">
               <description>A model using Crimson Shade has his Initiative increased by +D3 points, and Movement and Strength by +1 (this effect lasts for one game). Crimson Shade has no effect on Undead such as
@@ -2146,11 +2150,11 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="64c9-c160-28a7-8957" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
+            <cost name="gc" typeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5772-2d69-703b-98b7" name="Dark Venom" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5772-2d69-703b-98b7" name="Dark Venom" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="f00a-bfdb-c4c5-fd1b" name="Dark Venom" page="0" hidden="false">
               <description>Any hit caused by a weapon coated with Dark Venom counts as having +1 Strength, Armour saving throws are modified to take into account the increased Strength of the attack.</description>
@@ -2160,11 +2164,11 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="95ab-54ba-0ba2-43a0" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="30.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
+            <cost name="gc" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0772-0501-3a24-05b7" name="Elven Cloak" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0772-0501-3a24-05b7" name="Elven Cloak" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="9bd2-3e7c-1af0-98b5" name="Elven Cloak" page="0" hidden="false">
               <description>A warrior aiming a missile weapon at a warrior wearing an Elven cloak suffers -1 on his to hit roll.</description>
@@ -2178,7 +2182,7 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d4bf-a525-25b2-4ec1" name="Garlic" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d4bf-a525-25b2-4ec1" name="Garlic" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="170e-5284-d285-3e14" name="Garlic" page="0" hidden="false">
               <description>A Vampire must pass a Leadership test or it will be unable to charge a model carrying a clove of garlic. Garlic lasts for the duration of one battle only, whether it is used or not.</description>
@@ -2189,7 +2193,7 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a719-378a-0e84-24d8" name="Halfling Cook Book" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a719-378a-0e84-24d8" name="Halfling Cook Book" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="3f35-69a7-a259-49dc" name="Halfling Cook Book" page="0" hidden="false">
               <description>The maximum number of warriors allowed in your warband is increased by +1 (note that neither an Undead warband nor a Carnival of Chaos warband can use this item).</description>
@@ -2203,7 +2207,7 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9ab0-4b18-7626-c3cc" name="Healing Herbs" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9ab0-4b18-7626-c3cc" name="Healing Herbs" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="0ee2-5ccf-34a0-491a" name="Healing Herbs" page="0" hidden="false">
               <description>Hero with healing herbs can use them at the beginning of any of his recovery phases as long as he is not engaged in hand-to-hand combat. This restores all wounds he has previously lost during the game.</description>
@@ -2213,11 +2217,11 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="bc1c-f465-d3a3-d02c" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="20.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
+            <cost name="gc" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5bc5-82c5-34df-5bce" name="(un)Holy Relic" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5bc5-82c5-34df-5bce" name="(un)Holy Relic" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="f583-b76c-44e8-ef62" name="(un)Holy Relic" page="0" hidden="false">
               <description>A model with a holy relic will automatically pass the first Leadership test he is required to make in the game. If worn by the leader, it will allow him to automatically pass the first Rout test if he has not taken any Leadership tests before. You can only ignore the first Leadership test in any single game – owning two or more holy relics will not allow you to ignore second and subsequent tests.</description>
@@ -2227,11 +2231,11 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="0dfd-2506-c1c2-bc80" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
+            <cost name="gc" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="05df-cac9-621c-320d" name="Holy Tome" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="05df-cac9-621c-320d" name="Holy Tome" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="0a56-12df-fdb3-87ca" name="Holy Tome" page="0" hidden="false">
               <description>Warrior Priest or Sister of Sigmar with a holy tome can add +1 to the score when determining whether he (or she) can recite a spell successfully or not.</description>
@@ -2241,11 +2245,11 @@ Side effects: After the battle, roll 2D6. On a roll of 2-3, the model becomes ad
             <entryLink id="d9d0-93bd-0b54-59a1" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="100.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0c44-cebb-5079-833d" name="Horse" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0c44-cebb-5079-833d" name="Horse" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="a35e-370a-782e-5d46" name="Horse" page="0" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
               <characteristics>
@@ -2272,7 +2276,7 @@ You may mount one of your Heroes on a horse  in the coming battles. Horses  can 
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="521f-7a66-29f7-40fb" name="Hunting Arrows" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="521f-7a66-29f7-40fb" name="Hunting Arrows" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="09c7-3868-8218-9b39" name="Hunting Arrows" page="0" hidden="false">
               <description>A model using a short bow, bow, long bow or Elf bow may use these arrows. They add +1 to all Injury rolls.</description>
@@ -2282,11 +2286,11 @@ You may mount one of your Heroes on a horse  in the coming battles. Horses  can 
             <entryLink id="a221-c489-dc5a-2b4a" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="25.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5f6a-25c5-71f5-67c1" name="Lantern" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5f6a-25c5-71f5-67c1" name="Lantern" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="8d68-15f7-47f2-2bfb" name="Lantern" page="0" hidden="false">
               <description>A model that is in possession of a lantern may add +4&quot; to the distance from which he is able to spot hidden enemies.</description>
@@ -2297,7 +2301,7 @@ You may mount one of your Heroes on a horse  in the coming battles. Horses  can 
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6a4e-3454-69d2-13f6" name="Lucky Charm" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6a4e-3454-69d2-13f6" name="Lucky Charm" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="e8ed-2907-e93d-349f" name="Lucky Charm" page="0" hidden="false">
               <description>The first time a model with a lucky charm is hit in a battle they roll a D6. On a 4+ the hit is discarded and no damage is suffered. Owning two or more charms does not confer any extra benefits, the model may still only try to discard the first hit.</description>
@@ -2308,7 +2312,7 @@ You may mount one of your Heroes on a horse  in the coming battles. Horses  can 
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="de27-d134-4759-32e0" name="Mandrake Root" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="de27-d134-4759-32e0" name="Mandrake Root" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="a8f8-2ae1-d84d-92ee" name="Mandrake Root" page="0" hidden="false">
               <description>Toughness is increased by +1 for the duration of a battle and he treats all stunned results as knocked down instead. Mandrake Root has no effect on Undead, such as Vampires and Zombies, or on the Possessed.
@@ -2324,7 +2328,7 @@ Side effects: Mandrake Root is highly poisonous. At the end of the battle, roll 
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="85aa-d030-2511-d267" name="Mordhiem Map" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="85aa-d030-2511-d267" name="Mordhiem Map" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="654f-5095-55e5-84fe" name="Mordhiem Map" page="0" hidden="false">
               <description>When you buy a map, roll a D6:
@@ -2348,11 +2352,11 @@ on the Exploration chart as long as the Hero who possesses this map was not take
             <entryLink id="baac-cd4f-744b-82b3" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="20.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5a78-460f-5b2e-1b8e" name="Net" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5a78-460f-5b2e-1b8e" name="Net" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="7399-f4f7-db2a-259f" name="Net" page="0" hidden="false">
               <description>Once per game, the net may be thrown in the shooting phase instead of the model shooting a missile weapon. Treat the net as a missile weapon in all respects with a range of 8&quot;. Use the
@@ -2364,7 +2368,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a9ee-c3ff-b4b3-ff06" name="Rope And Hook" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a9ee-c3ff-b4b3-ff06" name="Rope And Hook" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="f2ff-4baa-8866-1596" name="Rope And Hook" page="0" hidden="false">
               <description>A warrior equipped with a rope &amp; hook may re-roll failed Initiative tests when climbing up and down.</description>
@@ -2375,7 +2379,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="15f3-058a-6fb5-d0ff" name="Superior Black Powder" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="15f3-058a-6fb5-d0ff" name="Superior Black Powder" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="c45c-03a9-4211-2cfd" name="Superior Black Powder" page="0" hidden="false">
               <description> +1 Strength to all blackpowder weapons that the model has. There is enough superior blackpowder to last for one game.</description>
@@ -2386,7 +2390,7 @@ model’s BS to determine whether the net hits or not – there are no movement 
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2f22-89ee-adfb-8cd4" name="Tome Of Magic" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2f22-89ee-adfb-8cd4" name="Tome Of Magic" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="be5e-acb0-a114-6661" name="Tome Of Magic" page="0" hidden="false">
               <description>If a warband includes a wizard, he will gain an extra spell from the tome, permanently. He may randomly generate this new spell from his own list or the Lesser Magic list. See the Magic section for details. The benefits from each Tome of Magic apply to only one model.</description>
@@ -2396,11 +2400,11 @@ model’s BS to determine whether the net hits or not – there are no movement 
             <entryLink id="be93-ef51-119a-03f0" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="200.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cdc1-642a-1e34-5e88" name="Warhorse" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cdc1-642a-1e34-5e88" name="Warhorse" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="1127-237b-e155-b14e" name="Warhorse" page="0" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
               <characteristics>
@@ -2427,7 +2431,7 @@ You may mount one of your Heroes on a warhorse in the coming battles. Warhorses 
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c707-b885-cf3f-1d9e" name="Wardog" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c707-b885-cf3f-1d9e" name="Wardog" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="2bd3-50e8-6d32-8321" name="Wardog" page="0" hidden="false" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model">
               <characteristics>
@@ -2453,11 +2457,11 @@ Wardogs count towards the maximum number of warriors allowed in your warband.</d
             <entryLink id="e5d7-4e82-8158-65eb" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="25.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ccb9-2613-98ea-1686" name="Squigg Prodder" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ccb9-2613-98ea-1686" name="Squigg Prodder" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="ce9a-f98d-72cb-e0ff" name="Squigg Prodder" page="0" hidden="false">
               <description>a Goblin with a Squig prodder can keep all Cave Squigs within 12&quot; from special rule under the Cave Squig entry. In addition, a Squig prodder is treated exactly like a spear in hand-to-hand combat.</description>
@@ -2468,7 +2472,7 @@ Wardogs count towards the maximum number of warriors allowed in your warband.</d
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fc33-fa8d-be1b-36d5" name="Mad Cap Mushrooms" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fc33-fa8d-be1b-36d5" name="Mad Cap Mushrooms" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="1482-878b-cbad-f6b8" name="Mad Cap Mushrooms" page="0" hidden="false">
               <description>Any warrior who takes Mad Cap Mushrooms before a battle will be subject to frenzy. The Mad Cap Mushroom has no effect on Undead such as Vampires
@@ -2481,11 +2485,11 @@ Side effect: After the battle, roll a D6. On a roll of a 1 the model becomes per
             <entryLink id="f225-75b2-1db0-6395" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="30.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="32ed-f532-3919-2b43" name="Tears of Shallaya" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="32ed-f532-3919-2b43" name="Tears of Shallaya" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="730a-796a-6396-6902" name="Tears of Shallaya" page="0" hidden="false">
               <description>A model who drinks a vial of the Tears of Shallaya at the beginning of a battle will be completely immune to all poisons for the duration of combat. Undead and Possessed warriors may not use the Tears of Shallaya. There is enough liquid in a vial of the Tears of Shallaya to last for the duration of one battle.</description>
@@ -2495,7 +2499,7 @@ Side effect: After the battle, roll a D6. On a roll of a 1 the model becomes per
             <entryLink id="e83d-f261-adac-8cfb" name="Gold" hidden="false" collective="false" import="true" targetId="8ea3-bbf5-5df5-33aa" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="gc" typeId="points" value="0.0"/>
+            <cost name="gc" typeId="points" value="10.0"/>
             <cost name="pts" typeId="warband-rating" value="0.0"/>
           </costs>
         </selectionEntry>

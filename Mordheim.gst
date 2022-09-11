@@ -232,7 +232,7 @@
         <cost name="pts" typeId="warband-rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db9e-119c-2891-c515" name="Experience" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="db9e-119c-2891-c515" name="Experience" publicationId="b0af-fa47-674e-c1b2" hidden="false" collective="true" import="true" type="upgrade">
       <costs>
         <cost name="gc" typeId="points" value="0.0"/>
         <cost name="pts" typeId="warband-rating" value="0.0"/>
@@ -2097,7 +2097,6 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
         <selectionEntry id="6e65-fe51-502a-e1e4" name="Blessed Water" publicationId="b0af-fa47-674e-c1b2" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="1a45-3840-743d-4021" name="Blessed Water" page="0" hidden="false">
-              <comment></comment>
               <description>A vial of blessed water contains enough liquid for just one use, and has a thrown range of twice the thrower’s Strength in inches. Roll to hit using the model’s BS. No modifiers for range or moving apply. Blessed water causes 1 wound on Undead, Daemon or Possessed models automatically. There is no armour save. Undead or Possessed models may not use blessed water.</description>
             </rule>
           </rules>

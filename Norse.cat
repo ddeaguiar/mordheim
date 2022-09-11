@@ -119,6 +119,7 @@
         <selectionEntry id="de89-e8bb-ea45-1b33" name="Marauder" hidden="false" collective="false" import="true" type="model">
           <entryLinks>
             <entryLink id="284a-bc58-fc8b-80c9" name="Henchmen Equipment" hidden="false" collective="false" import="true" targetId="a58f-1dcd-1a6d-8430" type="selectionEntryGroup"/>
+            <entryLink id="27a6-d052-bba0-3d15" name="Experience" hidden="false" collective="false" import="true" targetId="db9e-119c-2891-c515" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="gc" typeId="points" value="25.0"/>
@@ -127,7 +128,6 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="faa8d372-77d4-33a4-1a08-49fe27633c52" name="Experience" hidden="false" collective="false" import="true" targetId="db9e-119c-2891-c515" type="selectionEntry"/>
         <entryLink id="6e7c-8091-6a29-6070" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="b437-a39a-e044-1264" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -851,6 +851,7 @@
           </categoryLinks>
           <entryLinks>
             <entryLink id="1019-3f70-fc07-c310" name="Hunter Equipment" hidden="false" collective="true" import="true" targetId="0091-c9c8-381e-28f2" type="selectionEntryGroup"/>
+            <entryLink id="dae9-47dd-1024-b69b" name="Experience" hidden="false" collective="false" import="true" targetId="db9e-119c-2891-c515" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="gc" typeId="points" value="25.0"/>
@@ -859,7 +860,6 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="3ace7cec-b98a-8120-c6ce-caf458afb673" name="Experience" hidden="false" collective="false" import="true" targetId="db9e-119c-2891-c515" type="selectionEntry"/>
         <entryLink id="8d50-1c83-9034-310e" name="Characteristic Increases" hidden="false" collective="false" import="true" targetId="b437-a39a-e044-1264" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
